@@ -11,8 +11,9 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/fontawesome.css" />
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header id="header">
@@ -49,17 +50,17 @@
                   <a
                     href="#"
                     class="nav-link dropdown-toggle my-2"
-                    id="navbarDropdown"
+                    id="dropdownMenuButton"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     Features
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a href="#" class="dropdown-item"></a>Item1</li>
-                    <li><a href="#" class="dropdown-item"></a>Item2</li>
-                    <li><a href="#" class="dropdown-item"></a>Item3</li>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a href="#" class="dropdown-item">Item1</a></li>
+                    <li><a href="#" class="dropdown-item">Item2</a></li>
+                    <li><a href="#" class="dropdown-item">Item3</a></li>
                   </ul>
                 </li>
                 <li class="nav-item active">
@@ -136,6 +137,83 @@
           </div>
         </div>
       </div>
+      <div class="video-container">
+        <h2>How to make a video gallery</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="row video-row">
+                <div class="col-lg-6 video-col">
+                  <div class="feature-img">
+                    <img src="./img/thumbnail.png" width="100%" />
+                    <img src="./img/play.png" class="play-btn" onclick="playVideo('./video.mp4')" />
+                  </div>
+                </div>
+                <div class="col-lg-6 text-col">
+                  <div class="text-row-info">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias asperiores
+                      nisi modi<br />
+                      laboriosam voluptates libero unde, ex necessitatibus alias sunt debitis minus
+                      iusto sint magni dicta provident repellat ipsam ducimus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row video-row">
+                <div class="col-lg-6 video-col">
+                  <div class="feature-img">
+                    <img src="./img/thumbnail.png" width="100%" />
+                    <img src="./img/play.png" class="play-btn" onclick="playVideo('./video.mp4')" />
+                  </div>
+                </div>
+                <div class="col-lg-6 text-col">
+                  <div class="text-row-info">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias asperiores
+                      nisi modi<br />
+                      laboriosam voluptates libero unde, ex necessitatibus alias sunt debitis minus
+                      iusto sint magni dicta provident repellat ipsam ducimus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row video-row">
+                <div class="col-lg-6 video-col">
+                  <div class="feature-img">
+                    <img src="./img/thumbnail.png" width="100%" />
+                    <img src="./img/play.png" class="play-btn" onclick="playVideo('./video.mp4')" />
+                  </div>
+                </div>
+                <div class="col-lg-6 text-col">
+                  <div class="text-row-info">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias asperiores
+                      nisi modi<br />
+                      laboriosam voluptates libero unde, ex necessitatibus alias sunt debitis minus
+                      iusto sint magni dicta provident repellat ipsam ducimus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="video-player" id="videoPlayer">
+        <video width="100%" controls autoplay id="myVideo">
+          <source src="./video.mp4" type="video/mp4" />
+        </video>
+        <img src="./img/close.png" class="close-btn" onclick="stopVideo()" />
+      </div>
     </main>
 
     <script
@@ -143,6 +221,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script src="/js/script.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

@@ -38,3 +38,28 @@ if (animItems.length > 0) {
     animOnScroll();
   }, 300);
 }
+
+var videoPlayer = document.getElementById("videoPlayer");
+var myVideo = document.getElementById("myVideo");
+
+function stopVideo() {
+  videoPlayer.style.display = "none";
+}
+
+function playVideo(file) {
+  myVideo.src = file;
+  videoPlayer.style.display = "block";
+}
+
+var swiper = new Swiper(".mySwiper", {
+  cssMode: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  mousewheel: true,
+  keyboard: true,
+});
