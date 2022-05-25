@@ -49,17 +49,17 @@
   color: white;
 }
 
-.supportButton {
+/* .supportButton {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
   transition: 0.2s ease-in-out;
-}
-
+} */
+/* 
 .supportButton:focus,
 .supportButton:hover {
   background: #0fe48167;
   color: #000000;
   border-radius: 5px;
   text-shadow: 5px 5px 5px rgba(78, 78, 78, 0.185);
-}
+} */

@@ -1,6 +1,7 @@
 let animItems = document.querySelectorAll("._anim-items");
-
 var nav = document.querySelector("nav");
+var videoPlayer = document.getElementById("videoPlayer");
+var myVideo = document.getElementById("myVideo");
 
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 300) {
@@ -51,9 +52,6 @@ if (animItems.length > 0) {
   }, 300);
 }
 
-var videoPlayer = document.getElementById("videoPlayer");
-var myVideo = document.getElementById("myVideo");
-
 function stopVideo() {
   videoPlayer.style.display = "none";
 }
@@ -74,3 +72,23 @@ var swiper = new Swiper(".mySwiper", {
   },
   keyboard: true,
 });
+
+function sendEmail() {
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "kir260302@gmail.com",
+    Password: "330FA96A4B6F929201433AE8C38979684204",
+    To: "wrld4282@gmail.com",
+    From: document.getElementById("email").value,
+    Subject: "New Contact From Enquiry",
+    Body:
+      "Name: " +
+      document.getElementById("name").value +
+      "<br> Email: " +
+      document.getElementById("email").value +
+      "<br> Phone no: " +
+      document.getElementById("phone").value +
+      "<br> Message:" +
+      document.getElementById("message").value,
+  }).then((message) => alert("Повідомлення успішно відправлено"));
+}

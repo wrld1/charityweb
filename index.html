@@ -206,7 +206,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="text-center bg-white pb-2">
-                  <div class="card-body text-dark advantage-card _anim-items">
+                  <div class="donate-block text-dark _anim-items">
                     <h3 class="card-title _anim-show">Perevaga 2</h3>
                     <p class="card-text text-dark _anim-show">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
@@ -218,30 +218,14 @@
                 </div>
               </div>
               <div class="get-in-touch col-lg-6">
-                <h1 class="title">Гуманітарна допомога</h1>
-                <div class="container">
-                  <div class="contact-form row">
-                    <div class="form-field col-lg-6">
-                      <input id="name" class="input-text" type="text" name="" placeholder=" " />
-                      <label for="name" class="label">Ваше ім'я</label>
-                    </div>
-                    <div class="form-field col-lg-6">
-                      <input id="email" class="input-text" type="email" name="" placeholder=" " />
-                      <label for="email" class="label">Email</label>
-                    </div>
-                    <div class="form-field col-lg-6">
-                      <input id="phone" class="input-text" type="text" name="" placeholder=" " />
-                      <label for="phone" class="label">Номер телефону</label>
-                    </div>
-                    <div class="form-field col-lg-6">
-                      <input id="message" class="input-text" type="text" name="" placeholder=" " />
-                      <label for="message" class="label">Коментар</label>
-                    </div>
-                    <div class="form-field col-lg-6">
-                      <input class="submit-btn" type="submit" value="Відправити" name="" />
-                    </div>
-                  </div>
-                </div>
+                <form onsubmit="sendEmail(); reset(); return false;">
+                  <h3>Гуманітарна допомога</h3>
+                  <input type="text" id="name" placeholder="Ваше ім'я" required />
+                  <input type="email" id="email" placeholder="Email" required />
+                  <input type="text" id="phone" placeholder="Номер телефону" required />
+                  <textarea id="message" rows="4" placeholder="Ваше повідомлення"></textarea>
+                  <button type="submit" class="button-support">Надіслати</button>
+                </form>
               </div>
             </div>
           </div>
@@ -409,6 +393,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>

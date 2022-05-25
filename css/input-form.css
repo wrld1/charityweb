@@ -1,13 +1,65 @@
 .get-in-touch {
-  max-width: 800px;
+  max-width: 100%;
   margin: 50px auto;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 10px 20px 30px 2px rgba(34, 33, 33, 0.1);
   padding: 30px;
   border-radius: 6px;
 }
 
-.get-in-touch h1 {
+form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 2vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3 {
+  color: rgba(4, 129, 179, 0.912);
+  font-weight: 700;
+  margin-bottom: 30px;
+  align-self: center;
+}
+
+form input,
+form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #dad7d7;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.get-in-touch .button-support {
+  margin: 20px auto 0;
+  box-shadow: rgb(0 0 0 10%) 0 2px 4px 0;
+}
+.donate-block {
+  box-shadow: 5px 5px 5px 2px rgba(34, 33, 33, 0.1);
+  transition: all 0.9s ease-out;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.donate-block:hover {
+  background-color: rgba(216, 212, 212, 0.63);
+}
+
+.donate-block .button-support {
+  background-color: rgb(251, 255, 0);
+  color: #0050fc;
+  border: 1px solid rgb(206, 209, 6);
+  margin-bottom: 10px;
+}
+
+/* .get-in-touch h1 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 500;
@@ -17,8 +69,8 @@
   padding-bottom: 20px;
   color: rgba(4, 129, 179, 0.712);
   background-color: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
-  /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 
 .contact-form .form-field {
@@ -45,12 +97,12 @@
 .contact-form .input-text.not-empty + .label,
 .contact-form .input-text:not(:placeholder-shown) + .label {
   transform: translateY(-24px);
-}
+} 
 
 /* .contact-form .input-text:focus + .label,
   .contact-form .input-text.not-empty + .label {
     transform: translateY(-24px);
-  } */
+  } 
 
 .contact-form .label {
   position: absolute;
@@ -77,3 +129,4 @@
   width: 200px;
   cursor: pointer;
 }
+*/
