@@ -18,8 +18,8 @@
   <body>
     <header id="header">
       <div class="container-fluid">
-        <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-light">
-          <div class="container d-flex">
+        <nav class="navbar navbar-color fixed-top navbar-expand-lg p-md-3">
+          <div class="container">
             <a href="#" class="navbar-brand mb-0 h1">
               <img
                 class="d-inline-block align-top"
@@ -42,9 +42,10 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav justify-content-center">
-                <li class="nav-item active">
-                  <a href="#" class="nav-link active my-2"> Home </a>
+              <div class="mx-auto"></div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link my-2"> Home </a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -81,20 +82,35 @@
     <!-- Main section-->
 
     <main class="main">
-      <div class="container-main d-flex justify-content-center">
+      <div class="container-main w-100 vh-100 d-flex align-items-center justify-content-center">
+        <div class="content text-center">
+          <h1 class="title-info _anim-items _anim-no-hide">Awesome Landing Page</h1>
+          <p class="fullscreen_text _anim-items _anim-no-hide">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
+            consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi. Molestiae,
+            distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
+          </p>
+          <a href="" class="btn btn-warning warnButton">Зробити внесок</a>
+        </div>
+      </div>
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-md-6 main-info main-container-info">
-            <h2 class="title-info _anim-items _anim-no-hide">Awesome Landing Page</h2>
-            <p class="fullscreen_text _anim-items _anim-no-hide">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
-              consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
-              Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
-            </p>
-            <a href="" class="btn btn-warning warnButton">Зробити внесок</a>
+          <div class="col-lg-12 col-sm-12 col-md-12 mission-div">
+            <h2>Наша місія</h2>
+            <div class="mission-div-text">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum recusandae
+                veritatis cumque optio necessitatibus similique labore, tempora repellendus rerum
+                iusto illo quis. Fugit ipsam culpa at ducimus, eligendi nam voluptas! Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit. Voluptates cumque eius nam ea unde
+                dolorum, officia tempore sed repudiandae nemo assumenda vitae nesciunt tempora dicta
+                expedita error iusto enim alias.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid projects-container">
+      <!-- <div class="container-fluid projects-container">
         <div class="row gy-5">
           <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="text-center bg-white pb-2">
@@ -136,7 +152,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="video-container">
         <h2>How to make a video gallery</h2>
         <div class="swiper mySwiper">
@@ -214,6 +230,33 @@
         </video>
         <img src="./img/close.png" class="close-btn" onclick="stopVideo()" />
       </div>
+
+      <div class="get-in-touch">
+        <h1 class="title">Гуманітарна допомога</h1>
+        <div class="container">
+          <div class="contact-form row">
+            <div class="form-field col-lg-6">
+              <input id="name" class="input-text" type="text" name="" placeholder=" "/>
+              <label for="name" class="label">Ваше ім'я</label>
+            </div>
+            <div class="form-field col-lg-6">
+              <input id="email" class="input-text" type="email" name="" placeholder=" "/>
+              <label for="email" class="label">Email</label>
+            </div>
+            <div class="form-field col-lg-6">
+              <input id="phone" class="input-text" type="text" name="" placeholder=" "/>
+              <label for="phone" class="label">Номер телефону</label>
+            </div>
+            <div class="form-field col-lg-6">
+              <input id="message" class="input-text" type="text" name="" placeholder=" "/>
+              <label for="message" class="label">Коментар</label>
+            </div>
+            <div class="form-field col-lg-6">
+              <input class="submit-btn" type="submit" value="Відправити" name="" />
+            </div>
+          </div>
+        </div>
+      </d>
     </main>
 
     <script

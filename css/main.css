@@ -42,10 +42,18 @@ h6 {
 
 .navbar {
   padding: 15px 0;
+}
+
+.navbar-color {
   background-color: rgba(7, 65, 119, 0.178) !important;
   /* background: none !important; */
   backdrop-filter: blur(5px);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.bg-primary {
+  background-color: rgba(47, 119, 252, 0.815) !important;
+  backdrop-filter: blur(5px);
 }
 
 .navbar-brand {
@@ -120,6 +128,7 @@ h6 {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  border-radius: 0 0 10px 10px;
 }
 
 .main-container-info {
@@ -131,7 +140,8 @@ h6 {
 }
 
 .title-info {
-  font-size: 30px;
+  font-size: 60px;
+  font-weight: 600;
   color: #dcdde1;
   text-transform: uppercase;
   font-weight: bold;
@@ -139,6 +149,7 @@ h6 {
   opacity: 0;
   transition: all 0.8s ease 0s;
 }
+
 .title-info._active {
   transform: translate(0px, 0px);
   opacity: 1;
@@ -150,12 +161,13 @@ h6 {
 .fullscreen_text {
   font-size: 30px;
   line-height: 35px;
+  font-weight: 500;
   max-width: 50%;
   transform: translate(0px, 120%);
   opacity: 0;
   transition: all 0.8s ease 0s;
-  overflow-x: auto;
-  overflow-y: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .fullscreen_text._active {
@@ -190,6 +202,35 @@ h6 {
   color: #262626 !important;
   border-radius: 5px;
   transition: all 0.6s ease 0s;
+}
+
+.mission-div {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mission-div h2 {
+  padding: 60px 0;
+  color: rgba(4, 129, 179, 0.712);
+  font-size: 44px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mission-div-text {
+  background-color: rgba(13, 111, 190, 0.651);
+
+  padding: 20px 30px;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: rgb(48, 48, 48);
+  font-weight: 500;
+}
+
+.mission-div-text p {
+  color: rgb(248, 248, 103);
 }
 
 .advantage-card {
@@ -251,7 +292,6 @@ h6 {
 .text-col p {
   margin-left: 10px;
   margin-right: 10px;
-
   font-size: 30px;
   color: rgb(48, 48, 48);
   font-weight: 500;
@@ -303,6 +343,90 @@ h6 {
   top: 10px;
   right: 10px;
   width: 30px;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  padding-right: 20px;
+}
+
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 10px 20px 30px 2px rgba(34, 33, 33, 0.1);
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.get-in-touch h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 3em;
+  line-height: 48px;
+  padding-bottom: 20px;
+  color: rgba(4, 129, 179, 0.712);
+  background-color: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px;
+}
+
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: rgba(4, 129, 179, 0.912);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label,
+.contact-form .input-text:not(:placeholder-shown) + .label {
+  transform: translateY(-24px);
+}
+
+/* .contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  transform: translateY(-24px);
+} */
+
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: rgba(4, 129, 179, 0.712);
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+  display: inline-block;
+  background-image: linear-gradient(125deg, rgba(4, 129, 179, 0.912), #f3ef17);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
   cursor: pointer;
 }
 

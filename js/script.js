@@ -1,5 +1,17 @@
 let animItems = document.querySelectorAll("._anim-items");
 
+var nav = document.querySelector("nav");
+
+window.addEventListener("scroll", function () {
+  if (window.pageYOffset > 300) {
+    nav.classList.add("bg-primary", "shadow");
+    nav.classList.remove("navbar-color");
+  } else {
+    nav.classList.remove("bg-primary", "shadow");
+    nav.classList.add("navbar-color");
+  }
+});
+
 if (animItems.length > 0) {
   window.addEventListener("scroll", animOnScroll);
   function animOnScroll(params) {
@@ -52,7 +64,7 @@ function playVideo(file) {
 }
 
 var swiper = new Swiper(".mySwiper", {
-  cssMode: true,
+  cssMode: false,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
