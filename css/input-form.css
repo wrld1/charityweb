@@ -1,0 +1,79 @@
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 10px 20px 30px 2px rgba(34, 33, 33, 0.1);
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.get-in-touch h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 3em;
+  line-height: 48px;
+  padding-bottom: 20px;
+  color: rgba(4, 129, 179, 0.712);
+  background-color: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+  /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px;
+}
+
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: rgba(4, 129, 179, 0.912);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label,
+.contact-form .input-text:not(:placeholder-shown) + .label {
+  transform: translateY(-24px);
+}
+
+/* .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    transform: translateY(-24px);
+  } */
+
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: rgba(4, 129, 179, 0.712);
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+  display: inline-block;
+  background-image: linear-gradient(125deg, rgba(4, 129, 179, 0.912), #f3ef17);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.icon-margin {
+  margin-right: 5px;
+}
+
+.footer h5 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.footer p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-contact a {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-contact {
+  font-weight: bold;
+}
+
+.footer .btn-floating {
+  font-size: 23px;
+}
