@@ -1,0 +1,65 @@
+.header {
+  background-color: rgba(7, 65, 119, 0.85);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #ccc;
+}
+
+.nav-item {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+
+.nav-link {
+  color: rgb(235, 232, 232);
+  letter-spacing: 2px;
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px rgba(78, 78, 78, 0.185);
+  transition: 0.2s ease;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  background: #dcdde1;
+  color: #262626;
+}
+
+.dropdown-menu {
+  background-color: rgba(7, 65, 119, 0.397);
+}
+
+.dropdown-item {
+  padding-left: 10px;
+  color: white;
+}
+
+.supportButton {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  transition: 0.2s ease-in-out;
+}
+
+.supportButton:focus,
+.supportButton:hover {
+  background: #0fe48167;
+  color: #000000;
+  border-radius: 5px;
+  text-shadow: 5px 5px 5px rgba(78, 78, 78, 0.185);
+}
