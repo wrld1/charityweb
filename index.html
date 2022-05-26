@@ -86,7 +86,7 @@
         <main class="main">
           <div class="container-main">
             <div class="content text-center">
-              <h1 class="title-info _anim-items _anim-no-hide">Awesome Landing Page</h1>
+              <h1 class="title-info _anim-items _anim-no-hide">New Life of Ukraine</h1>
               <p class="fullscreen_text _anim-items _anim-no-hide">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                 consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
@@ -205,10 +205,10 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-6">
-                <div class="text-center bg-white pb-2">
-                  <div class="donate-block text-dark _anim-items">
-                    <h3 class="card-title _anim-show">Perevaga 2</h3>
-                    <p class="card-text text-dark _anim-show">
+                <div class="pb-2">
+                  <div class="donate-block">
+                    <h3 class="donate-block-title">Perevaga 2</h3>
+                    <p class="">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                       consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
                       Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
@@ -218,12 +218,35 @@
                 </div>
               </div>
               <div class="get-in-touch col-lg-6">
-                <form onsubmit="sendEmail(); reset(); return false;">
+                <form action="https://formspree.io/f/xnqwwdog" method="POST">
                   <h3>Гуманітарна допомога</h3>
-                  <input type="text" id="name" placeholder="Ваше ім'я" required />
-                  <input type="email" id="email" placeholder="Email" required />
-                  <input type="text" id="phone" placeholder="Номер телефону" required />
-                  <textarea id="message" rows="4" placeholder="Ваше повідомлення"></textarea>
+                  <label>
+                    Name:
+                    <input type="text" id="name" placeholder="Ваше ім'я" required name="Ім'я" />
+                  </label>
+                  <label>
+                    Your email:
+                    <input type="email" id="email" placeholder="Email" required name="email" />
+                  </label>
+                  <label>
+                    Phone number:
+                    <input
+                      type="text"
+                      id="phone"
+                      placeholder="Номер телефону"
+                      required
+                      name="Номер телефону"
+                    />
+                  </label>
+                  <label>
+                    Your message:
+                    <textarea
+                      id="message"
+                      rows="4"
+                      placeholder="Ваше повідомлення"
+                      name="Повідомлення"
+                    ></textarea>
+                  </label>
                   <button type="submit" class="button-support">Надіслати</button>
                 </form>
               </div>
@@ -233,10 +256,10 @@
             <h1 class="title">Наші проекти</h1>
             <div class="row gy-5">
               <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="text-center bg-white pb-2">
-                  <div class="card-body text-dark advantage-card _anim-items">
-                    <h3 class="card-title">Perevaga 1</h3>
-                    <p class="card-text text-dark _anim-show">
+                <div class="text-center pb-2">
+                  <div class="project-block">
+                    <h3 class="project-block-title">Perevaga 1</h3>
+                    <p class="">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                       consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
                       Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
@@ -246,10 +269,10 @@
                 </div>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="text-center bg-white pb-2">
-                  <div class="card-body text-dark advantage-card _anim-items">
-                    <h3 class="card-title _anim-show">Perevaga 2</h3>
-                    <p class="card-text text-dark _anim-show">
+                <div class="text-center pb-2">
+                  <div class="project-block">
+                    <h3 class="project-block-title">Perevaga 2</h3>
+                    <p class="">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                       consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
                       Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
@@ -259,10 +282,10 @@
                 </div>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="text-center bg-white pb-2">
-                  <div class="card-body text-dark advantage-card _anim-items">
-                    <h3 class="card-title _anim-show">Perevaga 3</h3>
-                    <p class="card-text text-dark _anim-show">
+                <div class="text-center pb-2">
+                  <div class="project-block">
+                    <h3 class="project-block-title">Perevaga 3</h3>
+                    <p class="">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                       consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
                       Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
@@ -393,8 +416,11 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/inputForm.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/videoSection.js"></script>
   </body>
 </html>
