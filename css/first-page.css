@@ -10,7 +10,7 @@
 .container-main {
   position: relative;
   background: linear-gradient(to top, rgba(4, 129, 179, 0.185), rgba(180, 168, 6, 0)),
-    url("../img/headerjp.jpg");
+    url("../img/headerjp\ test.jpg");
   min-height: 100vh;
   background-size: cover;
   background-position: center;
@@ -19,6 +19,10 @@
   flex-direction: column;
   margin-bottom: 50px;
   border-radius: 0 0 10px 10px;
+}
+
+.container-main.replace {
+  background-image: url("../img/headerjpTestTiny.jpg");
 }
 
 .main-container-info {
