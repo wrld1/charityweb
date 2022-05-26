@@ -3,6 +3,7 @@
   background-color: #fff;
   border-radius: 6px;
   box-shadow: 0 0 10px 5px rgb(221 221 221);
+  transition: all 0.8s ease 0s;
 }
 
 .project-block:hover {
@@ -15,12 +16,11 @@
 }
 
 .projects-container h1 {
-  text-transform: uppercase;
+  padding: 60px 0;
+  color: rgba(4, 129, 179, 0.712);
+  font-size: 44px;
   text-align: center;
-  font-weight: 500;
-  letter-spacing: 3px;
-  font-size: 3em;
-  line-height: 48px;
+  font-weight: bold;
   color: rgba(4, 129, 179, 0.712);
   background-color: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
   /* -webkit-background-clip: text;

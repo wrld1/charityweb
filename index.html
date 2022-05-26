@@ -124,7 +124,18 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="row victims-video-row">
-                    <div class="col-lg-6 victims-video-col">
+                    <div class="col-lg-12 victims-video-col">
+                      <iframe
+                        width="560"
+                        height="500"
+                        src="https://www.youtube.com/embed/le8WIV04e8I"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <!-- <div class="col-lg-6 victims-video-col">
                       <div class="victims-feature-img">
                         <a href="./img/thumbnail.jpg" class="progressive replace">
                           <img src="./img/thumbnail tiny.jpg" class="preview" alt="image" />
@@ -145,12 +156,12 @@
                           minus iusto sint magni dicta provident repellat ipsam ducimus.
                         </p>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="row victims-video-row">
-                    <div class="col-lg-6 victims-video-col">
+                    <!-- <div class="col-lg-12 victims-video-col">
                       <div class="victims-feature-img">
                         <img src="./img/thumbnail.jpg" width="100%" />
                         <img
@@ -159,7 +170,7 @@
                           onclick="playVideo('./video.mp4')"
                         />
                       </div>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 victims-text-col">
                       <div class="victims-text-row-info">
                         <p>
@@ -174,7 +185,7 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="row victims-video-row">
-                    <div class="col-lg-6 video-col">
+                    <!-- <div class="col-lg-6 video-col">
                       <div class="victims-feature-img">
                         <img src="./img/thumbnail.jpg" width="100%" />
                         <img
@@ -183,7 +194,7 @@
                           onclick="playVideo('./video.mp4')"
                         />
                       </div>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 victims-text-col">
                       <div class="victims-text-row-info">
                         <p>
@@ -209,8 +220,9 @@
             </video>
             <img src="./img/close.png" class="close-btn" onclick="stopVideo()" />
           </div>
-          <div class="container">
-            <div class="row">
+          <div class="container donate-section">
+            <h2>Як допомогти</h2>
+            <div class="row align-items-center">
               <div class="col-lg-6">
                 <div class="pb-2">
                   <div class="donate-block">
@@ -228,15 +240,22 @@
                 <form action="https://formspree.io/f/xnqwwdog" method="POST">
                   <h3>Гуманітарна допомога</h3>
                   <label>
-                    Name:
+                    Ім'я:
                     <input type="text" id="name" placeholder="Ваше ім'я" required name="Ім'я" />
                   </label>
                   <label>
-                    Your email:
-                    <input type="email" id="email" placeholder="Email" required name="email" />
+                    Ваш email:
+                    <input
+                      type="email"
+                      class="form_input"
+                      id="email"
+                      placeholder="Email"
+                      required
+                      name="email"
+                    />
                   </label>
                   <label>
-                    Phone number:
+                    Номер телефону:
                     <input
                       type="text"
                       id="phone"
@@ -246,7 +265,7 @@
                     />
                   </label>
                   <label>
-                    Your message:
+                    Ваше повідомлення:
                     <textarea
                       id="message"
                       rows="4"
@@ -306,21 +325,21 @@
           <div class="container about-us-container">
             <h1 class="title">Про нас</h1>
             <div class="row">
-              <div class="about-us-block col-sm-12 col-md-12 col-lg-6">
+              <div class="about-us-block col-lg-6">
                 <h3>Наше завдання</h3>
-                <p class="_anim-show">
+                <p class="">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                   consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
                   Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
                 </p>
               </div>
-              <div class="about-us-img-block col-sm-12 col-md-12 col-lg-6">
+              <div class="about-us-img-block col-lg-6">
                 <h3>Наша команда</h3>
-                <a href="./img/thumbnail.jpg" class="progressive replace">
-                  <img class="about-us-img preview" src="./img/thumbnail tiny.jpg" alt="image" />
+                <a href="" class="progressive replace">
+                  <img class="about-us-img preview" src="" alt="image" />
                 </a>
 
-                <p class="_anim-show">
+                <p class="">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                   consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
                   Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
@@ -330,7 +349,7 @@
           </div>
         </main>
 
-        <footer class="bg-dark pt-5 pb-4 footer">
+        <footer class="pt-5 pb-4 footer">
           <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">
               <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">

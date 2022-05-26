@@ -12,23 +12,19 @@
 }
 
 .mission-div-text {
-  background-color: rgba(13, 111, 190, 0.651);
-  padding: 20px 30px;
+  padding: 20px;
+  background-color: rgb(10, 137, 255);
   border-radius: 6px;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 30px;
-  color: rgb(48, 48, 48);
-  font-weight: 500;
-  transition: all 0.9s ease-out;
-  padding: 30px;
-  border-radius: 6px;
+  box-shadow: 0 0 20px 10px rgba(4, 129, 179, 0.418);
+  transition: all 0.8s ease 0s;
+  text-align: center;
 }
 
 .mission-div-text:hover {
-  background-color: rgba(28, 73, 221, 0.63);
+  background-color: rgba(9, 64, 245, 0.63);
 }
 
 .mission-div-text p {
-  color: rgb(248, 248, 103);
+  color: #ffc107;
+  font-weight: 600;
 }

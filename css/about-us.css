@@ -1,11 +1,13 @@
+.about-us-container {
+  width: 100%;
+}
+
 .about-us-container h1 {
-  text-transform: uppercase;
+  padding: 60px 0;
+  color: rgba(4, 129, 179, 0.712);
+  font-size: 44px;
   text-align: center;
-  font-weight: 500;
-  letter-spacing: 3px;
-  font-size: 3em;
-  line-height: 48px;
-  padding-bottom: 20px;
+  font-weight: bold;
   color: rgba(4, 129, 179, 0.712);
   background-color: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
 }
@@ -15,6 +17,7 @@
   border-radius: 10px 10px;
   transition: all 0.9s ease-out;
   color: black;
+  margin: 0 0 20px 0px;
 }
 
 .about-us-block:hover {
@@ -23,7 +26,7 @@
 
 .about-us-img-block {
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-  margin: 10px 0 10px 10px;
+  margin: 0 0 20px 0px;
   border-radius: 10px 10px;
   transition: all 0.9s ease-out;
   color: black;

@@ -11,15 +11,31 @@
   font-weight: bold;
 }
 
-.victims-video-row {
+/* .victims-video-row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-}
+} */
 
 .victims-video-col {
-  flex-basis: 50%;
-  min-width: 200px;
+  position: relative;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 56.25%;
+  background-color: rgb(145, 141, 141);
+  border-radius: 6px;
+}
+
+.victims-video-col iframe {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 75%;
 }
 
 .victims-feature-img {
@@ -31,7 +47,6 @@
 }
 
 .victims-text-col {
-  flex-basis: 50%;
   min-width: 200px;
 }
 

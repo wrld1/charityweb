@@ -7,6 +7,15 @@
   flex-direction: column;
 }
 
+.content {
+  width: 50%;
+  border-radius: 6px;
+  opacity: 0.8;
+  background: rgba(7, 65, 119, 0.85);
+  padding: 20px;
+  margin: auto;
+}
+
 .container-main {
   position: relative;
   background: linear-gradient(to top, rgba(4, 129, 179, 0.185), rgba(180, 168, 6, 0)),
@@ -36,7 +45,7 @@
 .title-info {
   font-size: 60px;
   font-weight: 600;
-  color: #dcdde1;
+  color: #ffc107;
   text-transform: uppercase;
   font-weight: bold;
   transform: translate(0px, 120%);
@@ -48,7 +57,7 @@
   transform: translate(0px, 0px);
   opacity: 1;
   font-size: 30px;
-  color: #dcdde1;
+  color: #ffc107;
   font-weight: bold;
 }
 
