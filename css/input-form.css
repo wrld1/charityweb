@@ -1,5 +1,5 @@
 .donate-section h2 {
-  padding: 60px 0;
+  padding: 20px 0;
   color: rgba(4, 129, 179, 0.712);
   font-size: 44px;
   text-align: center;
@@ -8,7 +8,7 @@
 
 .get-in-touch {
   max-width: 100%;
-  margin: 50px auto;
+  margin: 20px auto;
   display: inline-block;
   align-items: center;
   justify-content: center;
