@@ -2,6 +2,10 @@
   background-color: rgba(7, 65, 119, 0.85);
 }
 
+.a-margin {
+  margin-bottom: 1rem;
+}
+
 .icon-margin {
   margin-right: 5px;
 }
@@ -42,4 +46,24 @@
 .footer hr {
   color: #ffc107;
   height: 2px;
+}
+
+.icon-facebook {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+}
+
+.icon-facebook:hover {
+  fill: #ffc107;
+}
+
+.icon-instagram {
+  width: 33px;
+  height: 33px;
+  fill: #fff;
+}
+
+.icon-instagram:hover {
+  fill: #ffc107;
 }

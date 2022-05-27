@@ -1,5 +1,6 @@
 .about-us-container {
   width: 100%;
+  text-align: center;
 }
 
 .about-us-container h1 {
@@ -14,27 +15,58 @@
 }
 
 .about-us-block {
-  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-  border-radius: 10px 10px;
-  transition: all 0.9s ease-out;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+
+  box-shadow: 0 0 10px 5px rgb(221 221 221);
+  transition: all 0.8s ease 0s;
+  margin: 0 10px 20px auto;
+}
+
+.about-us-block p {
   color: black;
-  margin: 0 0 20px 0px;
+  font-weight: 500;
 }
 
 .about-us-block:hover {
   background-color: rgba(216, 212, 212, 0.63);
 }
 
+.about-us-block h3 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 2em;
+  line-height: 48px;
+  color: rgba(11, 112, 245, 0.712);
+}
+
 .about-us-img-block {
+  padding: 10px;
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-  margin: 0 0 20px 0px;
+  margin: 0 auto 20px 10px;
   border-radius: 10px 10px;
   transition: all 0.9s ease-out;
   color: black;
 }
 
+.about-us-img-block p {
+  color: black;
+  font-weight: 500;
+}
+
 .about-us-img {
   width: 80%;
+}
+
+.about-us-img-block h3 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 2em;
+  line-height: 48px;
+  color: rgba(11, 112, 245, 0.712);
 }
 
 .about-us-img-block:hover {
