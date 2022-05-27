@@ -1,8 +1,8 @@
-window.formbutton =
-  window.formbutton ||
-  function () {
-    (formbutton.q = formbutton.q || []).push(arguments);
-  };
+// window.formbutton =
+//   window.formbutton ||
+//   function () {
+//     (formbutton.q = formbutton.q || []).push(arguments);
+//   };
 /* customize formbutton below*/
 formbutton("create", {
   action: "https://formspree.io/f/xnqwwdog",
@@ -14,6 +14,13 @@ formbutton("create", {
       name: "email",
       required: true,
       placeholder: "your@email.com",
+    },
+    {
+      type: "phone",
+      label: "Phone:",
+      name: "phone",
+      required: true,
+      placeholder: "0123456789",
     },
     {
       type: "textarea",

@@ -1,6 +1,7 @@
 .about-us-container {
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .about-us-container h1 {
@@ -15,10 +16,9 @@
 }
 
 .about-us-block {
-  padding: 10px;
+  padding: 30px 15px;
   background-color: #fff;
   border-radius: 6px;
-
   box-shadow: 0 0 10px 5px rgb(221 221 221);
   transition: all 0.8s ease 0s;
   margin: 0 10px 20px auto;
@@ -26,7 +26,7 @@
 
 .about-us-block p {
   color: black;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .about-us-block:hover {
@@ -34,19 +34,16 @@
 }
 
 .about-us-block h3 {
+  color: rgba(4, 129, 179, 0.912);
+  font-weight: 700;
   text-align: center;
-  font-weight: 600;
-  letter-spacing: 3px;
-  font-size: 2em;
-  line-height: 48px;
-  color: rgba(11, 112, 245, 0.712);
 }
 
 .about-us-img-block {
-  padding: 10px;
+  padding: 30px 15px;
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
   margin: 0 auto 20px 10px;
-  border-radius: 10px 10px;
+  border-radius: 6px;
   transition: all 0.9s ease-out;
   color: black;
 }
@@ -61,14 +58,20 @@
 }
 
 .about-us-img-block h3 {
+  color: rgba(4, 129, 179, 0.912);
+  font-weight: 700;
   text-align: center;
-  font-weight: 600;
-  letter-spacing: 3px;
-  font-size: 2em;
-  line-height: 48px;
-  color: rgba(11, 112, 245, 0.712);
 }
 
 .about-us-img-block:hover {
   background-color: rgba(216, 212, 212, 0.63);
 }
+
+@media (max-width: 991px) {
+  .about-us-block {
+    margin: 0 auto 20px auto;
+  }
+  .about-us-img-block {
+    margin: 0 auto 20px auto;
+  }
+} ;

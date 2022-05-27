@@ -12,13 +12,13 @@
 
 .footer h5 {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .footer p {
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
 }
 
@@ -30,13 +30,18 @@
 .footer-contact a {
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   color: white;
 }
 
+.footer-adress {
+  margin-bottom: 0rem;
+  justify-content: center;
+}
 .footer-contact {
   font-weight: bold;
+  text-align: start;
 }
 
 .footer .btn-floating {
@@ -46,6 +51,29 @@
 .footer hr {
   color: #ffc107;
   height: 2px;
+}
+
+.icon-house {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+.icon-house:hover {
+  fill: #ffc107;
+}
+
+.icon-mail {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.icon-mail:hover {
+  fill: #ffc107;
 }
 
 .icon-facebook {
@@ -59,11 +87,28 @@
 }
 
 .icon-instagram {
-  width: 33px;
-  height: 33px;
+  width: 35px;
+  height: 35px;
   fill: #fff;
 }
 
 .icon-instagram:hover {
   fill: #ffc107;
 }
+
+.icon-youtube {
+  width: 37px;
+  height: 37px;
+  fill: #fff;
+}
+
+.icon-youtube:hover {
+  fill: #ffc107;
+}
+
+@media (max-width: 767px) {
+  .footer-contact {
+    font-weight: bold;
+    text-align: center;
+  }
+} ;

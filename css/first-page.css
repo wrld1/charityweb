@@ -10,7 +10,7 @@
 .content {
   width: 50%;
   border-radius: 15px;
-  opacity: 0.8;
+  opacity: 0.9;
   background: rgba(7, 65, 119, 0.85);
   padding: 20px;
   margin: auto;
@@ -19,7 +19,7 @@
 .container-main {
   position: relative;
   background: linear-gradient(to top, rgba(4, 129, 179, 0.185), rgba(180, 168, 6, 0)),
-    url("../img/headerjp\ test.jpg");
+    url("../img/headerjp.jpg");
   min-height: 100vh;
   background-size: cover;
   background-position: center;
@@ -85,19 +85,6 @@
   padding-bottom: 25px;
 }
 
-.main .btn-warning {
-  color: rgb(0, 89, 255) !important;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 1em;
-  font-weight: 600;
-  text-shadow: 1px 1px 2px rgba(78, 78, 78, 0.185);
-}
-
-.main-container-info .warnButton {
-  transform: translate(200%);
-}
-
 .button-support {
   background-color: #0050fc;
   border: 1px solid #2579f7;
@@ -127,12 +114,23 @@
   transform: translateY(-5px);
 }
 
+.bg-gray {
+  background-color: rgba(196, 196, 196, 0.411);
+}
+
+@media (max-width: 991px) {
+  .content {
+    width: 100%;
+    border-radius: 15px;
+    opacity: 0.9;
+    background: rgba(7, 65, 119, 0.85);
+    padding: 15px 5px;
+    margin: auto;
+  }
+}
+
 @media (min-width: 768px) {
   .button-support {
     padding: 10px 30px;
   }
-}
-
-.bg-gray {
-  background-color: rgba(196, 196, 196, 0.411);
 }

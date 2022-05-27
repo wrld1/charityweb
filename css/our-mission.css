@@ -28,3 +28,9 @@
   color: #ffc107;
   font-weight: 600;
 }
+
+@media (max-width: 767px) {
+  .mission-div {
+    width: 100%;
+  }
+} ;
