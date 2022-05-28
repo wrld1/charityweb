@@ -1,32 +1,27 @@
-.victims-video-container {
+.victims-container {
   width: 100%;
   margin: 80px auto;
   align-items: center;
 }
 
-.victims-video-container h2 {
-  margin-top: -15px;
-  padding: 0px 0 30px 0;
-  color: rgba(4, 129, 179, 0.712);
-  font-size: 44px;
-  text-align: center;
-  font-weight: bold;
+.victims-container .title {
+  margin-top: -35px;
 }
 
-.victims-video-row {
+.victims-container__row {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.victims-video-col {
+.victims-container__player {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
   height: 0;
 }
 
-.victims-video-col iframe {
+.victims-container__player iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -34,11 +29,11 @@
   height: 100%;
 }
 
-.victims-text-col {
+.victims-container__text-row {
   min-width: 200px;
 }
 
-.victims-text-row-info {
+.victims-container__text {
   background-color: #fff;
   border-radius: 6px;
   box-shadow: 0 0 10px 5px rgb(221 221 221);
@@ -49,17 +44,34 @@
   overflow: hidden;
 }
 
-.victims-text-row-info:hover {
+.victims-container__text:hover {
   background-color: #fff;
   box-shadow: 0 0 10px 20px rgb(221 221 221);
 }
 
-.victims-text-row-info p {
+.victims-container__text p {
   margin: 0 10px 0px 10px;
   padding: 40px 25px;
   font-size: 30px;
   font-weight: 600;
   color: rgb(48, 48, 48);
+}
+
+.swiper-button-prev {
+  padding-right: 20px;
+}
+
+.swiper-pagination {
+  margin-top: 70px !important;
+}
+
+@media (max-width: 991px) {
+  .swiper-button-next,
+  .swiper-button-prev,
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+  }
 }
 
 /* .small-img {
@@ -70,7 +82,7 @@
     overflow: hidden;
   } */
 
-.play-btn {
+/* .play-btn {
   width: 60px;
   position: absolute;
   left: 50%;
@@ -98,21 +110,4 @@
   right: 10px;
   width: 30px;
   cursor: pointer;
-}
-
-.swiper-button-prev {
-  padding-right: 20px;
-}
-
-.swiper-pagination {
-  margin-top: 70px !important;
-}
-
-@media (max-width: 991px) {
-  .swiper-button-next,
-  .swiper-button-prev,
-  .swiper-button-next.swiper-button-disabled,
-  .swiper-button-prev.swiper-button-disabled {
-    opacity: 0;
-  }
-} ;
+} */

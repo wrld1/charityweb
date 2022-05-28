@@ -216,7 +216,7 @@
       <div class="app-content">
         <main class="main">
           <div class="container-main" id="home">
-            <div class="content text-center col-lg-6 col-md-12 col-sm-12">
+            <div class="content">
               <h1 class="title-info _anim-items _anim-no-hide">New Life of Ukraine</h1>
               <p class="fullscreen_text _anim-items _anim-no-hide">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
@@ -228,29 +228,27 @@
           </div>
           <div class="bg-gray">
             <div class="container-fluid">
-              <div class="row mission-div">
-                <div class="col-lg-12 col-sm-12 col-md-12">
-                  <h2>Наша місія</h2>
-                  <div class="mission-div-text">
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum recusandae
-                      veritatis cumque optio necessitatibus similique labore, tempora repellendus
-                      rerum iusto illo quis. Fugit ipsam culpa at ducimus, eligendi nam voluptas!
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque
-                      eius nam ea unde dolorum, officia tempore sed repudiandae nemo assumenda vitae
-                      nesciunt tempora dicta expedita error iusto enim alias.
-                    </p>
-                  </div>
+              <div class="row mission-row">
+                <h2 class="title">Наша місія</h2>
+                <div class="mission-text">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum recusandae
+                    veritatis cumque optio necessitatibus similique labore, tempora repellendus
+                    rerum iusto illo quis. Fugit ipsam culpa at ducimus, eligendi nam voluptas!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque eius
+                    nam ea unde dolorum, officia tempore sed repudiandae nemo assumenda vitae
+                    nesciunt tempora dicta expedita error iusto enim alias.
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="victims-video-container">
-              <h2>Постраждалі</h2>
+            <div class="victims-container">
+              <h2 class="title">Постраждалі</h2>
               <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div class="row victims-video-row col-lg-10">
-                      <div class="victims-video-col">
+                    <div class="row victims-container__row col-lg-10">
+                      <div class="victims-container__player">
                         <iframe
                           width="560"
                           height="315"
@@ -261,8 +259,8 @@
                           allowfullscreen
                         ></iframe>
                       </div>
-                      <div class="victims-text-col">
-                        <div class="victims-text-row-info">
+                      <div class="victims-container__text-row">
+                        <div class="victims-container__text">
                           <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
                             asperiores nisi modi<br />
@@ -273,9 +271,9 @@
                       </div>
                     </div>
                   </div>
-                  <div class="swiper-slide" id="victim2">
-                    <div class="row victims-video-row col-lg-10">
-                      <div class="victims-video-col">
+                  <div class="swiper-slide">
+                    <div class="row victims-container__row col-lg-10">
+                      <div class="victims-container__player">
                         <iframe
                           width="560"
                           height="315"
@@ -286,21 +284,19 @@
                           allowfullscreen
                         ></iframe>
                       </div>
-                      <div class="victims-text-col">
-                        <div class="victims-text-row-info">
+                      <div class="victims-container__text-row">
+                        <div class="victims-container__text">
                           <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
-                            asperiores nisi modi laboriosam voluptates libero unde, ex
-                            necessitatibus alias sunt debitis minus iusto sint magni dicta provident
-                            repellat ipsam ducimus.
+                            asperiores nisi modi
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="swiper-slide">
-                    <div class="row victims-video-row col-lg-10">
-                      <div class="victims-video-col">
+                    <div class="row victims-container__row col-lg-10">
+                      <div class="victims-container__player">
                         <iframe
                           width="560"
                           height="315"
@@ -311,8 +307,8 @@
                           allowfullscreen
                         ></iframe>
                       </div>
-                      <div class="victims-text-col">
-                        <div class="victims-text-row-info">
+                      <div class="victims-container__text-row">
+                        <div class="victims-container__text">
                           <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
                             asperiores nisi modi<br />
@@ -337,13 +333,13 @@
             </video>
             <img src="./img/close.png" class="close-btn" onclick="stopVideo()" />
           </div> -->
-          <div class="container donate-section" id="donate-section">
-            <h2>Як допомогти</h2>
-            <div class="row align-items-center">
+          <div class="container donate-container" id="donate-container">
+            <h2 class="title">Як допомогти</h2>
+            <div class="row donate-row">
               <div class="col-lg-6">
                 <div class="pb-2">
                   <div class="donate-block">
-                    <h3 class="donate-block-title">Пожертвування</h3>
+                    <h3 class="subtitle">Пожертвування</h3>
                     <p class="">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                       consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
@@ -355,7 +351,7 @@
               </div>
               <div class="get-in-touch col-lg-6">
                 <form action="https://formspree.io/f/xnqwwdog" method="POST">
-                  <h3>Гуманітарна допомога</h3>
+                  <h3 class="get-in-touch_subtitle subtitle">Гуманітарна допомога</h3>
                   <label>
                     Ім'я:
                     <input type="text" id="name" placeholder="Ваше ім'я" required name="Ім'я" />
@@ -396,62 +392,56 @@
             </div>
           </div>
           <div class="container projects-container" id="_our-projects">
-            <h1 class="title">Наші проекти</h1>
-            <div class="row gy-5">
+            <h2 class="title">Наші проекти</h2>
+            <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="text-center pb-2">
-                  <div class="project-block">
-                    <h3 class="project-block-title">Проект 1</h3>
-                    <p class="">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
-                      consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
-                      Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
-                    </p>
-                    <button class="button-support" role="button">Підтримати</button>
-                  </div>
+                <div class="project-block">
+                  <h3 class="subtitle">Проект 1</h3>
+                  <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
+                    consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
+                    Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
+                  </p>
+                  <button class="button-support" role="button">Підтримати</button>
                 </div>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="text-center pb-2">
-                  <div class="project-block">
-                    <h3 class="project-block-title">Проект 2</h3>
-                    <p class="">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
-                      consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
-                      Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
-                    </p>
-                    <button class="button-support" role="button">Підтримати</button>
-                  </div>
+                <div class="project-block">
+                  <h3 class="subtitle">Проект 2</h3>
+                  <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
+                    consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
+                    Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
+                  </p>
+                  <button class="button-support" role="button">Підтримати</button>
                 </div>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="text-center pb-2">
-                  <div class="project-block">
-                    <h3 class="project-block-title">Проект 3</h3>
-                    <p class="">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
-                      consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
-                      Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
-                    </p>
-                    <button class="button-support" role="button">Підтримати</button>
-                  </div>
+                <div class="project-block">
+                  <h3 class="subtitle">Проект 3</h3>
+                  <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
+                    consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
+                    Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
+                  </p>
+                  <button class="button-support" role="button">Підтримати</button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="container about-us-container" id="_about-us">
-            <h1 class="about-us-title">Про нас</h1>
+          <div class="container about-us" id="_about-us">
+            <h2 class="title">Про нас</h2>
             <div class="row">
-              <div class="about-us-block col-lg-5">
-                <h3>Наше завдання</h3>
+              <div class="about-us_text-block col-lg-5">
+                <h3 class="subtitle">Наше завдання</h3>
                 <p class="">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                   consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
                   Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
                 </p>
               </div>
-              <div class="about-us-img-block col-lg-5">
-                <h3>Наша команда</h3>
+              <div class="about-us_img-block col-lg-5">
+                <h3 class="subtitle">Наша команда</h3>
                 <!-- <a href="" class="progressive replace">
                   <img class="" src="" alt="image" />
                 </a> -->
@@ -466,21 +456,19 @@
           </div>
         </main>
 
-        <footer class="pt-5 pb-4 footer">
-          <div class="container text-center text-md-left">
-            <div class="row text-center text-md-left">
-              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-                  New Life of Ukraine
-                </h5>
+        <footer class="footer">
+          <div class="container">
+            <div class="row footer_items text-md-left">
+              <div class="col-md-3 col-lg-3 col-xl-3 footer_margin">
+                <h5 class="footer_subtitle">New Life of Ukraine</h5>
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime dignissimos
                   consequatur ipsam doloribus id dicta quos eos deleniti similique. Labore, nam
                   eligendi molestiae modi accusamus ipsa qui amet mollitia facere.
                 </p>
               </div>
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+              <div class="col-md-2 col-lg-2 col-xl-2 footer_margin">
+                <h5 class="footer_subtitle">Products</h5>
                 <p>
                   <a href="#">TheProviders</a>
                 </p>
@@ -494,8 +482,8 @@
                   <a href="#">Counter-strike</a>
                 </p>
               </div>
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+              <div class="col-md-3 col-lg-2 col-xl-2 footer_margin">
+                <h5 class="footer_subtitle">Useful Links</h5>
                 <p>
                   <a href="#">TheProviders</a>
                 </p>
@@ -509,8 +497,8 @@
                   <a href="#">Counter-strike</a>
                 </p>
               </div>
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 footer-contact">
-                <h5 class="text-uppercase mb-4 text-warning">Contact</h5>
+              <div class="col-md-4 col-lg-3 col-xl-3 footer_margin footer-contact">
+                <h5 class="footer_subtitle">Contact</h5>
                 <p class="footer-adress">
                   <svg display="none">
                     <symbol viewBox="0 0 30 30" id="house-icon">
@@ -536,17 +524,17 @@
                     <use xlink:href="#mail-icon"></use></svg
                   >kir260302@gmail.com</a
                 >
-                <a href="tel:0959360373"><i class="icon-margin"></i>+380959360373</a>
+                <a href="tel:0959360373"><i></i>+380959360373</a>
               </div>
             </div>
 
             <hr class="mb-4" />
-            <div class="row align-items-center">
+            <div class="row footer_underhr">
               <div class="col-md-7 col-lg-8">
                 <p>
                   Copyright 2022 All rights reserved by
                   <a href="#">
-                    <strong class="text-warning">New Life of Ukraine</strong>
+                    <strong class="footer_brand-name">New Life of Ukraine</strong>
                   </a>
                 </p>
               </div>
@@ -554,7 +542,7 @@
                 <div class="text-center text-md-right">
                   <ul class="list-unstyled list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="btn-floating btn-sm text-white"
+                      <a href="#" class="btn-floating btn-sm"
                         ><svg display="none">
                           <symbol viewBox="0 0 26 26" id="facebook-icon">
                             <g id="surface1782069">
@@ -578,7 +566,7 @@
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="btn-floating btn-sm text-white"
+                      <a href="#" class="btn-floating btn-sm"
                         ><svg display="none">
                           <symbol viewBox="0 0 24 24" id="instagram-icon">
                             <path
@@ -592,7 +580,7 @@
                       ></a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="btn-floating btn-sm text-white"
+                      <a href="#" class="btn-floating btn-sm"
                         ><svg display="none">
                           <symbol viewBox="0 0 50 50" id="youtube-icon">
                             <path

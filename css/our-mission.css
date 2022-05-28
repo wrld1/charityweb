@@ -1,17 +1,9 @@
-.mission-div {
+.mission-row {
   width: 75%;
   margin: 0 auto;
 }
 
-.mission-div h2 {
-  padding: 30px 0;
-  color: rgba(4, 129, 179, 0.712);
-  font-size: 44px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.mission-div-text {
+.mission-text {
   padding: 20px;
   background-color: rgb(10, 137, 255);
   border-radius: 6px;
@@ -20,17 +12,17 @@
   text-align: center;
 }
 
-.mission-div-text:hover {
+.mission-text:hover {
   background-color: rgba(9, 64, 245, 0.63);
 }
 
-.mission-div-text p {
+.mission-text p {
   color: #ffc107;
   font-weight: 600;
 }
 
 @media (max-width: 767px) {
-  .mission-div {
+  .mission-row {
     width: 100%;
   }
 } ;

@@ -1,21 +1,10 @@
-.about-us-container {
+.about-us {
   width: 100%;
   text-align: center;
   margin-bottom: 50px;
 }
 
-.about-us-container h1 {
-  padding: 30px 0;
-  margin: 10px 0;
-  color: rgba(4, 129, 179, 0.712);
-  font-size: 44px;
-  text-align: center;
-  font-weight: bold;
-  color: rgba(4, 129, 179, 0.712);
-  background-color: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
-}
-
-.about-us-block {
+.about-us_text-block {
   padding: 30px 15px;
   background-color: #fff;
   border-radius: 6px;
@@ -24,22 +13,16 @@
   margin: 0 10px 20px auto;
 }
 
-.about-us-block p {
+.about-us_text-block p {
   color: black;
   font-weight: 600;
 }
 
-.about-us-block:hover {
+.about-us_text-block:hover {
   background-color: rgba(216, 212, 212, 0.63);
 }
 
-.about-us-block h3 {
-  color: rgba(4, 129, 179, 0.912);
-  font-weight: 700;
-  text-align: center;
-}
-
-.about-us-img-block {
+.about-us_img-block {
   padding: 30px 15px;
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
   margin: 0 auto 20px 10px;
@@ -48,30 +31,24 @@
   color: black;
 }
 
-.about-us-img-block p {
+.about-us_img-block p {
   color: black;
   font-weight: 500;
 }
 
-.about-us-img {
+.about-us_img {
   width: 80%;
 }
 
-.about-us-img-block h3 {
-  color: rgba(4, 129, 179, 0.912);
-  font-weight: 700;
-  text-align: center;
-}
-
-.about-us-img-block:hover {
+.about-us_img-block:hover {
   background-color: rgba(216, 212, 212, 0.63);
 }
 
 @media (max-width: 991px) {
-  .about-us-block {
+  .about-us_text-block {
     margin: 0 auto 20px auto;
   }
-  .about-us-img-block {
+  .about-us_img-block {
     margin: 0 auto 20px auto;
   }
 } ;

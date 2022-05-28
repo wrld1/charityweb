@@ -1,18 +1,36 @@
 .footer {
   background-color: rgba(7, 65, 119, 0.85);
+  padding-top: 45px;
+  padding-bottom: 30px;
 }
 
-.a-margin {
-  margin-bottom: 1rem;
+.footer_items {
+  text-align: center;
 }
 
-.icon-margin {
-  margin-right: 5px;
+.footer_margin {
+  margin: 16px auto 0px auto;
 }
 
-.footer h5 {
+.footer_subtitle {
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffc107;
   font-weight: 700;
   font-size: 20px;
+}
+
+.footer_brand-name {
+  color: #ffc107;
+}
+
+.footer_underhr {
+  align-items: center;
+}
+
+.footer_underhr p {
+  text-align: center;
 }
 
 .footer p {
@@ -26,6 +44,10 @@
   color: white;
   text-decoration: none;
 }
+.footer-contact {
+  font-weight: bold;
+  text-align: start;
+}
 
 .footer-contact a {
   font-weight: 600;
@@ -38,10 +60,6 @@
 .footer-adress {
   margin-bottom: 0rem;
   justify-content: center;
-}
-.footer-contact {
-  font-weight: bold;
-  text-align: start;
 }
 
 .footer .btn-floating {

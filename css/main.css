@@ -4,8 +4,8 @@
 @import "./footer.css";
 @import "./first-page.css";
 @import "./our-mission.css";
-@import "./input-form.css";
-@import "./victims-block.css";
+@import "./donate-section.css";
+@import "./victims-section.css";
 @import "./our-projects.css";
 @import "./about-us.css";
 
@@ -44,3 +44,26 @@ h6 {
   backdrop-filter: blur(5px);
 }
 
+.title {
+  padding: 30px 0;
+  color: rgba(4, 129, 179, 0.712);
+  font-size: 44px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: rgba(4, 129, 179, 0.912);
+  font-weight: 700;
+  text-align: center;
+}
+
+.button-support {
+  background-color: rgb(251, 255, 0);
+  color: #0050fc;
+  border: 1px solid rgb(206, 209, 6);
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}

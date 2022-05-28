@@ -1,5 +1,6 @@
 .project-block {
   padding: 30px 15px;
+  text-align: center;
   background-color: #fff;
   border-radius: 6px;
   box-shadow: 0 0 10px 5px rgb(221 221 221);
@@ -13,27 +14,6 @@
 .project-block p {
   color: black;
   font-weight: 600;
-}
-
-.projects-container h1 {
-  padding: 30px 0;
-  color: rgba(4, 129, 179, 0.712);
-  font-size: 44px;
-  text-align: center;
-  font-weight: bold;
-  color: rgba(4, 129, 179, 0.712);
-  background-color: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
-  /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-}
-
-.project-block-title {
-  color: rgba(4, 129, 179, 0.912);
-  font-weight: 700;
-  text-align: center;
-  /* transform: translate(0px, 120%);
-  opacity: 0;
-  transition: all 0.8s ease 0s; */
 }
 
 /* .project-block-title._active {
