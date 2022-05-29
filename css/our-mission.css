@@ -12,9 +12,9 @@
   text-align: center;
 }
 
-.mission-text:hover {
+/* .mission-text:hover {
   background-color: rgba(9, 64, 245, 0.63);
-}
+} */
 
 .mission-text p {
   color: #ffc107;

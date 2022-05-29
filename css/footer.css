@@ -46,15 +46,20 @@
 }
 .footer-contact {
   font-weight: bold;
-  text-align: start;
+  text-align: center;
 }
 
 .footer-contact a {
+  display: flex;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 16px;
   text-decoration: none;
   color: white;
+}
+
+.footer-contact .footer_subtitle {
+  text-align: start;
 }
 
 .footer-adress {
@@ -69,6 +74,17 @@
 .footer hr {
   color: #ffc107;
   height: 2px;
+}
+
+.footer_list {
+  list-style: none;
+  text-align: start;
+  padding-left: 0;
+}
+
+.footer_list__item {
+  color: #fff;
+  font-size: 16px;
 }
 
 .icon-house {
@@ -91,6 +107,18 @@
 }
 
 .icon-mail:hover {
+  fill: #ffc107;
+}
+
+.icon-phone {
+  width: 22px;
+  height: 22px;
+  fill: #fff;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.icon-phone:hover {
   fill: #ffc107;
 }
 
@@ -125,8 +153,23 @@
 }
 
 @media (max-width: 767px) {
-  .footer-contact {
-    font-weight: bold;
+  .footer-contact .footer_subtitle {
     text-align: center;
+  }
+
+  .footer-adress {
+    text-align: center;
+  }
+
+  .footer-contact a {
+    display: flex;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+  }
+  .footer_products-links {
   }
 } ;

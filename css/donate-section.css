@@ -1,5 +1,6 @@
 .donate-row {
   align-items: center;
+  --bs-gutter-x: 0;
 }
 
 .donate-block {
@@ -72,3 +73,10 @@ form textarea {
   border-radius: 6px;
   font-size: 16px;
 }
+
+@media (max-width: 767px) {
+  .donate-block {
+    margin-left: 0;
+    margin-right: 0;
+  }
+} ;

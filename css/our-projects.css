@@ -1,3 +1,10 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
 .project-block {
   padding: 30px 15px;
   text-align: center;
@@ -23,3 +30,10 @@
   color: #000000;
   font-weight: bold;
 } */
+
+@media (max-width: 991px) {
+  .project-block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+} ;

@@ -43,40 +43,40 @@
 }
 
 .title-info {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 600;
   color: #ffc107;
   text-transform: uppercase;
   font-weight: bold;
-  transform: translate(0px, 120%);
-  opacity: 0;
+  /* transform: translate(0px, 120%);
+  opacity: 0; */
   transition: all 0.8s ease 0s;
 }
 
-.title-info._active {
+/* .title-info._active {
   transform: translate(0px, 0px);
   opacity: 1;
   font-size: 30px;
   color: #ffc107;
   font-weight: bold;
-}
+} */
 
 .fullscreen_text {
   font-size: 30px;
   line-height: 35px;
   font-weight: 500;
-  transform: translate(0px, 120%);
+  /* transform: translate(0px, 120%);
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s; */
   margin-left: auto;
   margin-right: auto;
 }
 
-.fullscreen_text._active {
+/* .fullscreen_text._active {
   transform: translate(0px, 0px);
   opacity: 1;
   transition: all 0.8s ease 0.4s;
-}
+} */
 
 .main p {
   margin-top: 1em;

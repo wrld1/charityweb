@@ -217,8 +217,8 @@
         <main class="main">
           <div class="container-main" id="home">
             <div class="content">
-              <h1 class="title-info _anim-items _anim-no-hide">New Life of Ukraine</h1>
-              <p class="fullscreen_text _anim-items _anim-no-hide">
+              <h1 class="title-info">New Life of Ukraine</h1>
+              <p class="fullscreen_text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                 consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
                 Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
@@ -431,7 +431,7 @@
           </div>
           <div class="container about-us" id="_about-us">
             <h2 class="title">Про нас</h2>
-            <div class="row">
+            <div class="row about-us_row">
               <div class="about-us_text-block col-lg-5">
                 <h3 class="subtitle">Наше завдання</h3>
                 <p class="">
@@ -467,64 +467,83 @@
                   eligendi molestiae modi accusamus ipsa qui amet mollitia facere.
                 </p>
               </div>
-              <div class="col-md-2 col-lg-2 col-xl-2 footer_margin">
+              <!-- <div class="footer_products-links"> -->
+              <div class="col-md-2 col-lg-2 col-xl-2 col-sm-6 col-6 footer_margin">
                 <h5 class="footer_subtitle">Products</h5>
                 <p>
-                  <a href="#">TheProviders</a>
+                  <a href="#">Product1</a>
                 </p>
                 <p>
-                  <a href="#">Cool hipe</a>
+                  <a href="#">Product2</a>
                 </p>
                 <p>
-                  <a href="#">Automatic</a>
+                  <a href="#">Product3</a>
                 </p>
                 <p>
-                  <a href="#">Counter-strike</a>
+                  <a href="#">Product4</a>
                 </p>
               </div>
-              <div class="col-md-3 col-lg-2 col-xl-2 footer_margin">
+              <div class="col-md-3 col-lg-2 col-xl-2 col-sm-6 col-6 footer_margin">
                 <h5 class="footer_subtitle">Useful Links</h5>
                 <p>
                   <a href="#">TheProviders</a>
                 </p>
                 <p>
-                  <a href="#">Cool hipe</a>
+                  <a href="#">Link2</a>
                 </p>
                 <p>
                   <a href="#">Automatic</a>
                 </p>
                 <p>
-                  <a href="#">Counter-strike</a>
+                  <a href="#">Link3</a>
                 </p>
               </div>
+
               <div class="col-md-4 col-lg-3 col-xl-3 footer_margin footer-contact">
                 <h5 class="footer_subtitle">Contact</h5>
-                <p class="footer-adress">
-                  <svg display="none">
-                    <symbol viewBox="0 0 30 30" id="house-icon">
-                      <path
-                        d="M 15 2 A 1 1 0 0 0 14.300781 2.2851562 L 3.3925781 11.207031 A 1 1 0 0 0 3.3554688 11.236328 L 3.3183594 11.267578 L 3.3183594 11.269531 A 1 1 0 0 0 3 12 A 1 1 0 0 0 4 13 L 5 13 L 5 24 C 5 25.105 5.895 26 7 26 L 23 26 C 24.105 26 25 25.105 25 24 L 25 13 L 26 13 A 1 1 0 0 0 27 12 A 1 1 0 0 0 26.681641 11.267578 L 26.666016 11.255859 A 1 1 0 0 0 26.597656 11.199219 L 25 9.8925781 L 25 6 C 25 5.448 24.552 5 24 5 L 23 5 C 22.448 5 22 5.448 22 6 L 22 7.4394531 L 15.677734 2.2675781 A 1 1 0 0 0 15 2 z M 18 15 L 22 15 L 22 23 L 18 23 L 18 15 z"
-                      />
-                    </symbol>
-                  </svg>
+                <ul class="footer_list">
+                  <li class="footer-adress footer_list__item">
+                    <svg display="none">
+                      <symbol viewBox="0 0 30 30" id="house-icon">
+                        <path
+                          d="M 15 2 A 1 1 0 0 0 14.300781 2.2851562 L 3.3925781 11.207031 A 1 1 0 0 0 3.3554688 11.236328 L 3.3183594 11.267578 L 3.3183594 11.269531 A 1 1 0 0 0 3 12 A 1 1 0 0 0 4 13 L 5 13 L 5 24 C 5 25.105 5.895 26 7 26 L 23 26 C 24.105 26 25 25.105 25 24 L 25 13 L 26 13 A 1 1 0 0 0 27 12 A 1 1 0 0 0 26.681641 11.267578 L 26.666016 11.255859 A 1 1 0 0 0 26.597656 11.199219 L 25 9.8925781 L 25 6 C 25 5.448 24.552 5 24 5 L 23 5 C 22.448 5 22 5.448 22 6 L 22 7.4394531 L 15.677734 2.2675781 A 1 1 0 0 0 15 2 z M 18 15 L 22 15 L 22 23 L 18 23 L 18 15 z"
+                        />
+                      </symbol>
+                    </svg>
 
-                  <svg class="icon-house">
-                    <use xlink:href="#house-icon"></use></svg
-                  >Kyiv
-                </p>
-                <a href="mailto: kir260302@gmail.com"
-                  ><svg display="none">
-                    <symbol viewBox="0 0 30 30" id="mail-icon">
-                      <path
-                        d="M 4 5 C 2.9069372 5 2 5.9069372 2 7 L 2 23 C 2 24.093063 2.9069372 25 4 25 L 26 25 C 27.093063 25 28 24.093063 28 23 L 28 7 C 28 5.9069372 27.093063 5 26 5 L 4 5 z M 6.6992188 7 L 23.300781 7 L 15 13.134766 L 6.6992188 7 z M 5 9.4746094 L 15 16.865234 L 25 9.4746094 L 25 23 L 5 23 L 5 9.4746094 z"
-                      />
-                    </symbol>
-                  </svg>
-                  <svg class="icon-mail">
-                    <use xlink:href="#mail-icon"></use></svg
-                  >kir260302@gmail.com</a
-                >
-                <a href="tel:0959360373"><i></i>+380959360373</a>
+                    <svg class="icon-house">
+                      <use xlink:href="#house-icon"></use></svg
+                    >Kyiv
+                  </li>
+                  <li class="footer_list__item">
+                    <a href="mailto: kir260302@gmail.com">
+                      <svg display="none">
+                        <symbol viewBox="0 0 30 30" id="mail-icon">
+                          <path
+                            d="M 4 5 C 2.9069372 5 2 5.9069372 2 7 L 2 23 C 2 24.093063 2.9069372 25 4 25 L 26 25 C 27.093063 25 28 24.093063 28 23 L 28 7 C 28 5.9069372 27.093063 5 26 5 L 4 5 z M 6.6992188 7 L 23.300781 7 L 15 13.134766 L 6.6992188 7 z M 5 9.4746094 L 15 16.865234 L 25 9.4746094 L 25 23 L 5 23 L 5 9.4746094 z"
+                          />
+                        </symbol>
+                      </svg>
+                      <svg class="icon-mail">
+                        <use xlink:href="#mail-icon"></use></svg
+                      >kir260302@gmail.com
+                    </a>
+                  </li>
+                  <li class="footer_list__item">
+                    <a href="tel:0959360373">
+                      <svg display="none">
+                        <symbol viewBox="0 0 512 512" id="phone-icon">
+                          <path
+                            d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"
+                          />
+                        </symbol>
+                      </svg>
+                      <svg class="icon-phone">
+                        <use xlink:href="#phone-icon"></use></svg
+                      >38(095)9360373
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
 

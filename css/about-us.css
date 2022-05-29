@@ -2,6 +2,12 @@
   width: 100%;
   text-align: center;
   margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-us_row {
 }
 
 .about-us_text-block {
