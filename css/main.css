@@ -27,7 +27,7 @@ h6 {
   color: #333;
 }
 
-._anim-show {
+/* ._anim-show {
   transform: translate(0px, 70%);
   opacity: 0;
   transition: all 0.8s ease 0s;
@@ -37,15 +37,19 @@ h6 {
 ._active ._anim-show {
   opacity: 1;
   transform: translate(0px, 0px);
-}
+} */
 
 .bg-primary {
   background-color: rgba(47, 119, 252, 0.815) !important;
   backdrop-filter: blur(5px);
 }
 
+.bg-gray {
+  background-color: rgba(196, 196, 196, 0.411);
+}
+
 .title {
-  padding: 30px 0;
+  padding: 20px 0;
   color: rgba(4, 129, 179, 0.712);
   font-size: 44px;
   text-align: center;
@@ -59,13 +63,32 @@ h6 {
 }
 
 .button-support {
-  background-color: rgb(251, 255, 0);
+  background-color: #ffc107;
   color: #0050fc;
-  border: 1px solid rgb(206, 209, 6);
+  border: 1px solid rgb(209, 189, 6);
+  border-radius: 6px;
   display: block;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 10px auto;
+  box-shadow: rgba(0, 0, 0, 0.212) 0 -5px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 600;
+  /* outline: none;
+  outline: 0; */
+  /* text-align: center; */
+  padding: 10px 25px;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-support:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-5px);
 }
 
 @media (max-width: 767px) {

@@ -7,7 +7,7 @@
   padding: 20px;
   background-color: rgb(10, 137, 255);
   border-radius: 6px;
-  box-shadow: 0 0 20px 10px rgba(4, 129, 179, 0.418);
+  box-shadow: 0 0 20px 10px rgb(33 141 185 / 65%);
   transition: all 0.8s ease 0s;
   text-align: center;
 }

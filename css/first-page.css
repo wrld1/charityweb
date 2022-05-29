@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+.content .button-support {
+  box-shadow: rgba(0, 0, 0, 0.212) 0 0 0;
+}
+
 .container-main {
   position: relative;
   background: linear-gradient(to top, rgba(4, 129, 179, 0.185), rgba(180, 168, 6, 0)),
@@ -86,37 +90,9 @@
   padding-bottom: 25px;
 }
 
-.button-support {
-  background-color: #0050fc;
-  border: 1px solid #2579f7;
-  border-radius: 6px;
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0; */
-  box-shadow: rgba(0, 0, 0, 0.212) 0 -5px 0;
-  box-sizing: border-box;
-  color: rgb(251, 255, 0);
-  cursor: pointer;
-  /* font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif; */
-  letter-spacing: 1px;
-  font-size: 20px;
-  font-weight: 600;
-  outline: none;
-  outline: 0;
-  padding: 10px 25px;
-  text-align: center;
-  transform: translateY(0);
-  transition: transform 150ms, box-shadow 150ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
 .button-support:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
   transform: translateY(-5px);
-}
-
-.bg-gray {
-  background-color: rgba(196, 196, 196, 0.411);
 }
 
 @media (max-width: 991px) {
