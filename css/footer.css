@@ -110,6 +110,10 @@
   fill: #ffc107;
 }
 
+.phone_number {
+  margin-left: 5px;
+}
+
 .icon-phone {
   width: 22px;
   height: 22px;
@@ -169,7 +173,5 @@
     text-decoration: none;
     color: white;
     justify-content: center;
-  }
-  .footer_products-links {
   }
 } ;
