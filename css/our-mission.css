@@ -32,10 +32,16 @@
   color: black;
   font-weight: 500;
   text-align: center;
+  padding-bottom: 0;
+  margin-top: 16px;
 }
 
 @media (max-width: 767px) {
   .mission-row {
     width: 100%;
+  }
+  .mission-text p {
+    margin: 0;
+    padding-bottom: 0;
   }
 }

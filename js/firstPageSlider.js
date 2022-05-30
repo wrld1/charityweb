@@ -1,7 +1,7 @@
 let elements = document.querySelectorAll(".slideImg");
 
 let counter = 1;
-console.log(elements)
+console.log(elements);
 
 function slider() {
   for (let i = 0; i < elements.length; i++) {
@@ -20,6 +20,6 @@ function slider() {
   counter++;
 }
 
-setInterval("slider();", 3000);
+setInterval("slider();", 4000);
 //
 // setTimeout("slider()", 1500);
