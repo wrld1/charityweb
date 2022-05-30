@@ -25,7 +25,7 @@
 
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body>
+  <body onload="slider()">
     <div class="app">
       <header class="header">
         <div class="container">
@@ -216,14 +216,19 @@
       <div class="app-content">
         <main class="main">
           <div class="container-main" id="home">
-            <div class="content">
-              <h1 class="title-info">New Life of Ukraine</h1>
-              <p class="fullscreen_text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
-                consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
-                Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
-              </p>
-              <button class="button-support" role="button">Підтримати</button>
+            <div class="slider">
+              <img src="./img/headerImg1.jpg" class="slideImg" id="slideImg" />
+            </div>
+            <div class="overlay">
+              <div class="content">
+                <h1 class="title-info">New Life of Ukraine</h1>
+                <p class="fullscreen_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
+                  consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
+                  Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
+                </p>
+                <button class="button-support" role="button">Підтримати</button>
+              </div>
             </div>
           </div>
           <div class="bg-gray">
@@ -636,5 +641,6 @@
     <script src="./js/inputForm.js"></script>
     <script src="./js/swiper.js"></script>
     <script src="./js/videoSection.js"></script>
+    <script src="./js/firstPageSlider.js"></script>
   </body>
 </html>

@@ -4,12 +4,22 @@
 }
 
 .mission-text {
-  padding: 20px;
+  /* padding: 20px;
   background-color: rgb(10, 137, 255);
   border-radius: 6px;
   box-shadow: 0 0 20px 10px rgb(33 141 185 / 65%);
   transition: all 0.8s ease 0s;
+  text-align: center; */
+  display: block;
+  padding: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 7px 10px rgb(221 221 221);
+  transition: all 0.8s ease 0s;
   text-align: center;
+  border: 2px solid #ffc107;
 }
 
 /* .mission-text:hover {
@@ -17,8 +27,11 @@
 } */
 
 .mission-text p {
-  color: #ffc107;
-  font-weight: 600;
+  /* color: #ffc107;
+  font-weight: 600; */
+  color: black;
+  font-weight: 500;
+  text-align: center;
 }
 
 @media (max-width: 767px) {

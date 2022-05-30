@@ -1,8 +1,8 @@
 .main {
   position: relative;
   min-height: 100vh;
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
   display: flex;
   flex-direction: column;
 }
@@ -13,7 +13,7 @@
   opacity: 0.9;
   background: rgba(7, 65, 119, 0.85);
   padding: 20px;
-  margin: auto;
+  margin: 280px auto 220px;
   text-align: center;
 }
 
@@ -23,20 +23,62 @@
 
 .container-main {
   position: relative;
-  background: linear-gradient(to top, rgba(4, 129, 179, 0.185), rgba(180, 168, 6, 0)),
-    url("../img/headerjp.jpg");
+  /* background: linear-gradient(to top, rgba(4, 129, 179, 0.185), rgba(180, 168, 6, 0)),
+    url("../img/headerjp.jpg"); */
   min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-  padding: 280px 0 220px;
+  overflow: hidden;
+  display: flex;
+  /* padding: 280px 0 220px; */
+  /* min-height: 100vh; */
+  /* background-size: cover;
+  background-position: center; */
+  /* padding: 280px 0 220px;
   display: flex;
   flex-direction: column;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px; */
 }
 
-.container-main.replace {
-  background-image: url("../img/headerjpTestTiny.jpg");
+.slider {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0; /*25% */
 }
+
+.slideImg {
+  width: 100%;
+  min-height: 100vh;
+  animation: zoom 3s linear infinite;
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1.2);
+  }
+  25% {
+    transform: scale(1);
+  }
+
+  85% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  position: absolute;
+}
+
+/* .container-main.replace {
+  background-image: url("../img/headerjpTestTiny.jpg");
+} */
 
 .main-container-info {
   margin-left: 30px;
@@ -103,6 +145,7 @@
     background: rgba(7, 65, 119, 0.85);
     padding: 15px 5px;
     margin: auto;
+    margin: 280px auto 220px;
   }
 }
 
