@@ -1,0 +1,39 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.project-block {
+  padding: 30px 15px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 5px rgb(221 221 221);
+  transition: all 0.8s ease 0s;
+}
+
+.project-block:hover {
+  background-color: rgba(216, 212, 212, 0.63);
+}
+
+.project-block p {
+  color: black;
+  font-weight: 600;
+}
+
+/* .project-block-title._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+} */
+
+@media (max-width: 991px) {
+  .project-block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+} ;

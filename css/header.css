@@ -1,6 +1,6 @@
 .header {
-  background-color: rgba(7, 65, 119, 0.85);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  /* background-color: rgba(7, 65, 119, 0.85); */
+  background-color: #0a56ad;
 }
 
 .navbar {
@@ -16,50 +16,90 @@
   font-size: 1.5em;
   text-transform: uppercase;
   color: #ccc;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.brand-logo {
+  margin-right: 5px;
 }
 
 .nav-item {
   font-weight: 600;
+  font-size: 16px;
   text-transform: uppercase;
-  padding-left: 50px;
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .nav-link {
-  color: rgb(235, 232, 232);
+  /* color: rgb(235, 232, 232); */
+  color: #fff !important;
   letter-spacing: 2px;
   font-size: 1em;
   font-weight: 700;
   border-radius: 5px;
   text-shadow: 1px 1px 1px rgba(78, 78, 78, 0.185);
-  transition: 0.2s ease;
+  transition: all 0.5s ease 0s;
+}
+
+.nav-bar .nav-link {
+  padding: 10px 15px;
 }
 
 .nav-link:focus,
 .nav-link:hover {
-  background: #dcdde1;
-  color: #262626;
+  background: #ffc107;
+  color: rgba(7, 65, 119) !important;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .dropdown-menu {
-  background-color: rgba(7, 65, 119, 0.397);
+  background-color: #ffc107;
 }
 
 .dropdown-item {
   padding-left: 10px;
-  color: white;
+  font-weight: 600;
+  color: rgba(7, 65, 119, 0.85);
 }
 
-.supportButton {
+.dropdown-item:hover {
+  padding-left: 10px;
+  font-weight: 600;
+  background-color: rgba(7, 65, 119, 0.85);
+  color: #ffc107;
+}
+
+.button-support-header {
+  padding: 5px 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 700;
-  transition: 0.2s ease-in-out;
+  font-weight: 600;
+  /* background-color: rgb(251, 255, 0); */
+  background-color: #ffd401;
+  color: #0050fc;
+  border: none;
+  border-radius: 5px;
+  transition: all 0s ease 0s;
+  margin-right: 10px;
 }
 
-.supportButton:focus,
-.supportButton:hover {
-  background: #0fe48167;
-  color: #000000;
-  border-radius: 5px;
-  text-shadow: 5px 5px 5px rgba(78, 78, 78, 0.185);
+.button-support-header:hover,
+.button-support-header:focus {
+  background: #ffc107;
+  color: #0050fc;
+  font-weight: 700;
+  box-shadow: 0 0 1px 3px #ecb307;
+}
+
+.icon-logo {
+  width: 37px;
+  height: 37px;
+  fill: #000000;
+  background-color: rgb(214, 207, 207);
+  margin-right: 5px;
 }

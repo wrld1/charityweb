@@ -1,16 +1,15 @@
 let animItems = document.querySelectorAll("._anim-items");
+// var nav = document.querySelector("nav");
 
-var nav = document.querySelector("nav");
-
-window.addEventListener("scroll", function () {
-  if (window.pageYOffset > 300) {
-    nav.classList.add("bg-primary", "shadow");
-    nav.classList.remove("navbar-color");
-  } else {
-    nav.classList.remove("bg-primary", "shadow");
-    nav.classList.add("navbar-color");
-  }
-});
+// window.addEventListener("scroll", function () {
+//   if (window.pageYOffset > 300) {
+//     nav.classList.add("bg-primary", "shadow");
+//     nav.classList.remove("navbar-color");
+//   } else {
+//     nav.classList.remove("bg-primary", "shadow");
+//     nav.classList.add("navbar-color");
+//   }
+// });
 
 if (animItems.length > 0) {
   window.addEventListener("scroll", animOnScroll);
@@ -51,26 +50,22 @@ if (animItems.length > 0) {
   }, 300);
 }
 
-var videoPlayer = document.getElementById("videoPlayer");
-var myVideo = document.getElementById("myVideo");
-
-function stopVideo() {
-  videoPlayer.style.display = "none";
-}
-
-function playVideo(file) {
-  myVideo.src = file;
-  videoPlayer.style.display = "block";
-}
-
-var swiper = new Swiper(".mySwiper", {
-  cssMode: false,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  keyboard: true,
-});
+// function sendEmail() {
+//   Email.send({
+//     Host: "smtp.elasticemail.com",
+//     Username: "kir260302@gmail.com",
+//     Password: "330FA96A4B6F929201433AE8C38979684204",
+//     To: "wrld4282@gmail.com",
+//     From: document.getElementById("email").value,
+//     Subject: "New Contact From Enquiry",
+//     Body:
+//       "Name: " +
+//       document.getElementById("name").value +
+//       "<br> Email: " +
+//       document.getElementById("email").value +
+//       "<br> Phone no: " +
+//       document.getElementById("phone").value +
+//       "<br> Message:" +
+//       document.getElementById("message").value,
+//   }).then((message) => alert("Повідомлення успішно відправлено"));
+// }

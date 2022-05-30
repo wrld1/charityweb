@@ -1,0 +1,177 @@
+.footer {
+  background-color: #0a56ad;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+
+.footer_items {
+  text-align: center;
+}
+
+.footer_margin {
+  margin: 16px auto 0px auto;
+}
+
+.footer_subtitle {
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffc107;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer_brand-name {
+  color: #ffc107;
+}
+
+.footer_underhr {
+  align-items: center;
+}
+
+.footer_underhr p {
+  text-align: center;
+}
+
+.footer p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer-contact {
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer-contact a {
+  display: flex;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-contact .footer_subtitle {
+  text-align: start;
+}
+
+.footer-adress {
+  margin-bottom: 0rem;
+  justify-content: center;
+}
+
+.footer .btn-floating {
+  font-size: 23px;
+}
+
+.footer hr {
+  color: #ffc107;
+  height: 2px;
+}
+
+.footer_list {
+  list-style: none;
+  text-align: start;
+  padding-left: 0;
+}
+
+.footer_list__item {
+  color: #fff;
+  font-size: 16px;
+}
+
+.icon-house {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+.icon-house:hover {
+  fill: #ffc107;
+}
+
+.icon-mail {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.icon-mail:hover {
+  fill: #ffc107;
+}
+
+.phone_number {
+  margin-left: 5px;
+}
+
+.icon-phone {
+  width: 22px;
+  height: 22px;
+  fill: #fff;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.icon-phone:hover {
+  fill: #ffc107;
+}
+
+.icon-facebook {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+}
+
+.icon-facebook:hover {
+  fill: #ffc107;
+}
+
+.icon-instagram {
+  width: 35px;
+  height: 35px;
+  fill: #fff;
+}
+
+.icon-instagram:hover {
+  fill: #ffc107;
+}
+
+.icon-youtube {
+  width: 37px;
+  height: 37px;
+  fill: #fff;
+}
+
+.icon-youtube:hover {
+  fill: #ffc107;
+}
+
+@media (max-width: 767px) {
+  .footer-contact .footer_subtitle {
+    text-align: center;
+  }
+
+  .footer-adress {
+    text-align: center;
+  }
+
+  .footer-contact a {
+    display: flex;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+  }
+} ;
