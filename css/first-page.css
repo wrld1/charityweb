@@ -44,11 +44,11 @@
 }
 
 .fade-in {
-  animation: in 2s linear;
+  animation: in 3s linear;
 }
 
 .fade-out {
-  animation: out 2s linear;
+  animation: out 3s linear;
 }
 
 @keyframes out {
@@ -58,14 +58,12 @@
 
   100% {
     opacity: 0.8;
-    display: none;
   }
 }
 
 @keyframes in {
   0% {
     opacity: 0.8;
-    display: block;
   }
 
   100% {
