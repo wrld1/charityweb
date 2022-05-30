@@ -33,21 +33,21 @@
   background-size: cover;
   background-position: center;
 }
-.slideImg1{
+.slideImg1 {
   display: block;
 }
-.slideImg2{
+.slideImg2 {
   display: none;
 }
-.slideImg3{
+.slideImg3 {
   display: none;
 }
 
-.fade-in{
+.fade-in {
   animation: in 3s linear infinite;
 }
 
-.fade-out{
+.fade-out {
   animation: out 3s linear infinite;
 }
 
@@ -57,14 +57,14 @@
   }
 
   100% {
-    opacity: 0;
+    opacity: 0.8;
     display: none;
   }
 }
 
 @keyframes in {
   0% {
-    opacity: 0;
+    opacity: 0.8;
     display: block;
   }
 
@@ -144,7 +144,7 @@
 
 @media (max-width: 575px) {
   .container-main {
-    min-height: 40vh;
+    min-height: 39vh;
   }
 
   .content {
