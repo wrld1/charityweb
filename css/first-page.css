@@ -44,11 +44,11 @@
 }
 
 .fade-in{
-  animation: in 3s linear infinite;
+  animation: in 1s linear ;
 }
 
 .fade-out{
-  animation: out 3s linear infinite;
+  animation: out 1s linear ;
 }
 
 @keyframes out {
