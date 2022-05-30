@@ -99,3 +99,10 @@ h6 {
     font-size: 30px;
   }
 }
+
+@media (max-width: 575px) {
+  .title {
+    padding: 5px 0;
+    margin: 20px auto;
+  }
+} ;
