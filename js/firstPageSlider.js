@@ -1,15 +1,25 @@
-var slideImg = document.getElementById("slideImg");
+let elements = document.querySelectorAll(".slideImg");
 
-var images = new Array("img/headerImg1.jpg", "img/headerImg2.jpg", "img/headerImg3.jpg");
-
-var len = images.length;
-var i = 0;
+let counter = 1;
+console.log(elements)
 
 function slider() {
-  if (i > len - 1) {
-    i = 0;
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].classList.remove("fade-in");
+    elements[i].style.display = "none";
+    elements[i].classList.add("fade-out");
   }
-  slideImg.src = images[i];
-  i++;
-  setTimeout("slider()", 3000);
+  if (counter > elements.length - 1) {
+    counter = 0;
+  }
+
+  elements[counter].classList.add("fade-in");
+  elements[counter].classList.remove("fade-out");
+  elements[counter].style.display = "block";
+
+  counter++;
 }
+
+setInterval("slider();", 3000);
+//
+// setTimeout("slider()", 1500);
