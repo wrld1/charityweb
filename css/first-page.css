@@ -47,9 +47,9 @@
 
 .slideImg {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   animation: zoom 3s linear infinite;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
