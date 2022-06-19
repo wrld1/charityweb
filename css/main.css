@@ -48,23 +48,38 @@ h6 {
   background-color: rgba(196, 196, 196, 0.411);
 }
 
+.bg-wheat {
+  background-image: url(../img/161510-e4d972.svg);
+  background-size: 400px 400px;
+  background-position: 90% 100%;
+  background-repeat: no-repeat;
+}
+
 .title {
   padding: 20px 0;
-  color: rgba(4, 129, 179, 0.712);
+  /* color: rgba(4, 129, 179, 0.712); */
+  color: #0a56ad;
   font-size: 44px;
   text-align: center;
   font-weight: bold;
 }
 
 .subtitle {
-  color: rgba(4, 129, 179, 0.912);
+  color: #0a56ad;
   font-weight: 700;
   text-align: center;
 }
 
+span {
+  background-color: #0a56ad;
+  color: #ffd401;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
 .button-support {
-  background-color: #ffc107;
-  color: #0050fc;
+  background-color: #ffd401;
+  color: #0a56ad;
   border: 1px solid rgb(209, 189, 6);
   border-radius: 6px;
   display: block;

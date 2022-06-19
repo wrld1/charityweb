@@ -30,6 +30,7 @@
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
   margin: 0 auto 20px 10px;
   border-radius: 6px;
+  background-color: #fff;
   transition: all 0.9s ease-out;
   color: black;
 }

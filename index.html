@@ -236,7 +236,7 @@
           <div class="bg-gray">
             <div class="container-fluid">
               <div class="row mission-row">
-                <h2 class="title">Наша місія</h2>
+                <h2 class="title">Наша <span>місія</span></h2>
                 <div class="mission-text">
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum recusandae
@@ -340,13 +340,94 @@
             </video>
             <img src="./img/close.png" class="close-btn" onclick="stopVideo()" />
           </div> -->
-          <div class="container donate-container" id="donate-container">
-            <h2 class="title">Як допомогти</h2>
-            <div class="row donate-row">
-              <div class="col-lg-6">
-                <div class="pb-2">
-                  <div class="donate-block">
-                    <h3 class="subtitle">Пожертвування</h3>
+          <div class="bg-wheat">
+            <div class="container donate-container" id="donate-container">
+              <h2 class="title"><span>Як</span> допомогти</h2>
+              <div class="row donate-row">
+                <div class="col-lg-6">
+                  <div class="pb-2">
+                    <div class="donate-block">
+                      <h3 class="subtitle">Пожертвування</h3>
+                      <p class="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem
+                        ut consectetur dolor consequatur tempora! Praesentium quo obcaecati quos
+                        sequi. Molestiae, distinctio odio! Itaque, commodi exercitationem! Error,
+                        harum quod.
+                      </p>
+                      <button class="button-support" role="button">Підтримати</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="get-in-touch col-lg-6">
+                  <form action="https://formspree.io/f/xnqwwdog" method="POST">
+                    <h3 class="get-in-touch_subtitle subtitle">Гуманітарна допомога</h3>
+                    <label>
+                      Ім'я:
+                      <input type="text" id="name" placeholder="Ваше ім'я" required name="Ім'я" />
+                    </label>
+                    <label>
+                      Ваш email:
+                      <input
+                        type="email"
+                        class="form_input"
+                        id="email"
+                        placeholder="Email"
+                        required
+                        name="email"
+                      />
+                    </label>
+                    <label>
+                      Номер телефону:
+                      <input
+                        type="text"
+                        id="phone"
+                        placeholder="Номер телефону"
+                        required
+                        name="Номер телефону"
+                      />
+                    </label>
+                    <label>
+                      Ваше повідомлення:
+                      <textarea
+                        id="message"
+                        rows="4"
+                        placeholder="Ваше повідомлення"
+                        name="Повідомлення"
+                      ></textarea>
+                    </label>
+                    <button type="submit" class="button-support">Надіслати</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="container projects-container" id="_our-projects">
+              <h2 class="title">Наші <span>проекти</span></h2>
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                  <div class="project-block">
+                    <h3 class="subtitle">Проект 1</h3>
+                    <p class="">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
+                      consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
+                      Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
+                    </p>
+                    <button class="button-support" role="button">Підтримати</button>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                  <div class="project-block">
+                    <h3 class="subtitle">Проект 2</h3>
+                    <p class="">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
+                      consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
+                      Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
+                    </p>
+                    <button class="button-support" role="button">Підтримати</button>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                  <div class="project-block">
+                    <h3 class="subtitle">Проект 3</h3>
                     <p class="">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                       consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
@@ -356,108 +437,30 @@
                   </div>
                 </div>
               </div>
-              <div class="get-in-touch col-lg-6">
-                <form action="https://formspree.io/f/xnqwwdog" method="POST">
-                  <h3 class="get-in-touch_subtitle subtitle">Гуманітарна допомога</h3>
-                  <label>
-                    Ім'я:
-                    <input type="text" id="name" placeholder="Ваше ім'я" required name="Ім'я" />
-                  </label>
-                  <label>
-                    Ваш email:
-                    <input
-                      type="email"
-                      class="form_input"
-                      id="email"
-                      placeholder="Email"
-                      required
-                      name="email"
-                    />
-                  </label>
-                  <label>
-                    Номер телефону:
-                    <input
-                      type="text"
-                      id="phone"
-                      placeholder="Номер телефону"
-                      required
-                      name="Номер телефону"
-                    />
-                  </label>
-                  <label>
-                    Ваше повідомлення:
-                    <textarea
-                      id="message"
-                      rows="4"
-                      placeholder="Ваше повідомлення"
-                      name="Повідомлення"
-                    ></textarea>
-                  </label>
-                  <button type="submit" class="button-support">Надіслати</button>
-                </form>
-              </div>
             </div>
-          </div>
-          <div class="container projects-container" id="_our-projects">
-            <h2 class="title">Наші проекти</h2>
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="project-block">
-                  <h3 class="subtitle">Проект 1</h3>
+            <div class="container about-us" id="_about-us">
+              <h2 class="title">Про <span>нас</span></h2>
+              <div class="row about-us_row">
+                <div class="about-us_text-block col-lg-5">
+                  <h3 class="subtitle">Наше завдання</h3>
                   <p class="">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
                     consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
                     Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
                   </p>
-                  <button class="button-support" role="button">Підтримати</button>
                 </div>
-              </div>
-              <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="project-block">
-                  <h3 class="subtitle">Проект 2</h3>
-                  <p class="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
-                    consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
-                    Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
-                  </p>
-                  <button class="button-support" role="button">Підтримати</button>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="project-block">
-                  <h3 class="subtitle">Проект 3</h3>
-                  <p class="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
-                    consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
-                    Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
-                  </p>
-                  <button class="button-support" role="button">Підтримати</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container about-us" id="_about-us">
-            <h2 class="title">Про нас</h2>
-            <div class="row about-us_row">
-              <div class="about-us_text-block col-lg-5">
-                <h3 class="subtitle">Наше завдання</h3>
-                <p class="">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
-                  consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
-                  Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
-                </p>
-              </div>
-              <div class="about-us_img-block col-lg-5">
-                <h3 class="subtitle">Наша команда</h3>
-                <!-- <a href="" class="progressive replace">
+                <div class="about-us_img-block col-lg-5">
+                  <h3 class="subtitle">Наша команда</h3>
+                  <!-- <a href="" class="progressive replace">
                   <img class="" src="" alt="image" />
                 </a> -->
 
-                <p class="">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
-                  consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
-                  Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
-                </p>
+                  <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, quidem ut
+                    consectetur dolor consequatur tempora! Praesentium quo obcaecati quos sequi.
+                    Molestiae, distinctio odio! Itaque, commodi exercitationem! Error, harum quod.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
