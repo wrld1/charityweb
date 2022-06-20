@@ -41,7 +41,7 @@
 
 .get-in-touch .button-support {
   margin: 20px auto 0;
-  box-shadow: rgb(0 0 0 10%) 0 2px 4px 0;
+  box-shadow: rgb(0 0 0 0.1) 0 2px 4px 0;
 }
 
 .get-in-touch input,
