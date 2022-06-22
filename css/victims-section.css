@@ -60,6 +60,10 @@
 .swiper-pagination {
   margin-top: 70px !important;
 }
+.swiper-pagination-bullet {
+  width: 5px;
+  height: 10px;
+}
 
 @media (max-width: 991px) {
   .swiper-button-next,
