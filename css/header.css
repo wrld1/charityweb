@@ -21,7 +21,9 @@
   cursor: pointer;
 }
 
-.brand-logo {
+.icon-logo {
+  width: 20px;
+  height: 20px;
   margin-right: 5px;
 }
 
@@ -43,6 +45,7 @@
   border-radius: 5px;
   text-shadow: 1px 1px 1px rgba(78, 78, 78, 0.185);
   transition: all 0.5s ease 0s;
+  text-align: center;
 }
 
 .nav-bar .nav-link {
@@ -96,12 +99,6 @@
   box-shadow: 0 0 1px 3px #ecb307;
 }
 
-.icon-logo {
-  width: 45px;
-  height: 45px;
-  margin-right: 5px;
-}
-
 .select {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -135,6 +132,9 @@
     margin-bottom: 10px;
   }
   .navbar {
-    padding: 0;
+    padding: 5px 0;
   }
-} ;
+  .navbar-brand {
+    margin-right: 0;
+  }
+}

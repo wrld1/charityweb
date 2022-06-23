@@ -191,4 +191,9 @@ const langArr = {
     en: "New Life Of Ukraine",
     es: "New Life Of Ukraine",
   },
+  newsTitle: {
+    ua: "Новини",
+    en: "News",
+    es: "Nuevos",
+  },
 };

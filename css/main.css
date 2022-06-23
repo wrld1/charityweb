@@ -8,6 +8,8 @@
 @import "./victims-section.css";
 @import "./our-projects.css";
 @import "./about-us.css";
+@import "./news.css";
+@import "./partners.css";
 
 body {
   font-family: "Lato", sans-serif;
@@ -109,6 +111,18 @@ span {
 @media (max-width: 767px) {
   .main p {
     font-size: 18px;
+  }
+  .main h2 {
+    font-size: 30px;
+  }
+  .button-support {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .main p {
+    font-size: 20px;
   }
   .main h2 {
     font-size: 30px;
