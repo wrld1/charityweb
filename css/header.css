@@ -4,7 +4,7 @@
 }
 
 .navbar {
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .navbar-nav {
@@ -22,9 +22,8 @@
 }
 
 .icon-logo {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
+  width: 50px;
+  margin-right: 15px;
 }
 
 .nav-item {
@@ -136,5 +135,10 @@
   }
   .navbar-brand {
     margin-right: 0;
+    font-size: 22px;
+  }
+  .icon-logo {
+    width: 30px;
+    margin-right: 5px;
   }
 }

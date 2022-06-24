@@ -10,7 +10,6 @@ function changeURLLanguage() {
 }
 
 function changeLanguage() {
-  console.log("hui");
   let hash = window.location.hash;
   hash = hash.substring(1);
   if (!allLang.includes(hash)) {
