@@ -10,6 +10,8 @@
 @import "./about-us.css";
 @import "./news.css";
 @import "./partners.css";
+@import "./documents.css";
+@import "./scroll-to-top.css";
 
 body {
   font-family: "Lato", sans-serif;
@@ -27,6 +29,10 @@ h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   color: #333;
+}
+
+.app-content {
+  scroll-behavior: smooth;
 }
 
 /* ._anim-show {
