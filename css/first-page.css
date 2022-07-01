@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .content {
   width: 50%;
   border-radius: 15px;
@@ -13,7 +12,6 @@
   padding: 20px;
   text-align: center;
 }
-
 .container-main {
   position: relative;
   overflow: hidden;
@@ -23,11 +21,9 @@
   min-height: 50vh;
   border-radius: 0 0 10px 10px;
 }
-
 .slider {
   width: 100%;
 }
-
 .slideImg {
   width: 100%;
   /*min-height: 100vh;*/
@@ -43,15 +39,12 @@
 .slideImg3 {
   display: none;
 }
-
 .fade-in {
   animation: in 4s linear;
 }
-
 .fade-out {
   animation: out 4s linear;
 }
-
 @keyframes out {
   0% {
     opacity: 1;
@@ -66,7 +59,6 @@
     opacity: 0.4;
   }
 }
-
 @keyframes in {
   0% {
     opacity: 0.8; /*0.8*/
@@ -81,7 +73,6 @@
     opacity: 0.95; /*1*/
   }
 }
-
 .overlay {
   width: 100%;
   height: 100%;
@@ -91,7 +82,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .main-container-info {
   margin-left: 30px;
   padding: 20px;
@@ -99,7 +89,6 @@
   border-radius: 10px 10px;
   backdrop-filter: blur(5px);
 }
-
 .title-info {
   font-size: 50px;
   font-weight: 600;
@@ -108,7 +97,6 @@
   font-weight: bold;
   transition: all 0.8s ease 0s;
 }
-
 .fullscreen_text {
   font-size: 30px;
   line-height: 35px;
@@ -116,7 +104,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 .main p {
   margin-top: 1em;
   padding: 0;
@@ -124,16 +111,13 @@
   color: rgb(255, 255, 255);
   padding-bottom: 25px;
 }
-
 .content .button-support {
   box-shadow: rgba(0, 0, 0, 0.212) 0 0 0;
 }
-
 .button-support:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
   transform: translateY(-5px);
 }
-
 @media (max-width: 991px) {
   .content {
     width: 100%;
@@ -144,13 +128,11 @@
     margin: auto;
   }
 }
-
 @media (min-width: 768px) {
   .button-support {
     padding: 10px 30px;
   }
 }
-
 @media (max-width: 575px) {
   .container-main {
     min-height: 55vh;
@@ -168,18 +150,15 @@
     padding: 5px;
     text-align: center;
   }
-
   .title-info {
     font-size: 30px;
     padding-top: 10px;
   }
-
   .fullscreen_text {
     margin-top: 0 !important;
     padding-bottom: 0px !important;
     line-height: 30px;
   }
-
   .content .button-support {
     margin: 0px auto 10px auto;
   }

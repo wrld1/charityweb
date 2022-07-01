@@ -17,16 +17,13 @@
   transition: all 0.8s ease 0s;
   margin: 0 10px 0 auto;
 }
-
 .about-us_text-block p {
   color: black;
   font-weight: 600;
 }
-
 .about-us_text-block:hover {
   background-color: rgba(216, 212, 212, 0.63);
 }
-
 .about-us_img-block {
   padding: 30px 15px;
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
@@ -36,20 +33,16 @@
   transition: all 0.9s ease-out;
   color: black;
 }
-
 .about-us_img-block p {
   color: black;
   font-weight: 500;
 }
-
 .about-us_img {
   width: 80%;
 }
-
 .about-us_img-block:hover {
   background-color: rgba(216, 212, 212, 0.63);
 }
-
 @media (max-width: 991px) {
   .about-us_text-block {
     margin: 0 auto 20px auto;

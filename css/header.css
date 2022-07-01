@@ -2,15 +2,12 @@
   /* background-color: rgba(7, 65, 119, 0.85); */
   background-color: #0a56ad;
 }
-
 .navbar {
   padding: 10px 0;
 }
-
 .navbar-nav {
   align-items: center;
 }
-
 .navbar-brand {
   font-weight: bold;
   font-size: 1.5em;
@@ -20,12 +17,10 @@
   align-items: center;
   cursor: pointer;
 }
-
 .icon-logo {
   width: 50px;
   margin-right: 15px;
 }
-
 .nav-item {
   font-weight: 600;
   font-size: 16px;
@@ -34,7 +29,6 @@
   margin-right: 10px;
   margin-left: 10px;
 }
-
 .nav-link {
   /* color: rgb(235, 232, 232); */
   color: #fff !important;
@@ -46,11 +40,9 @@
   transition: all 0.5s ease 0s;
   text-align: center;
 }
-
 .nav-bar .nav-link {
   padding: 10px 15px;
 }
-
 .nav-link:focus,
 .nav-link:hover {
   background: #ffd401;
@@ -58,24 +50,20 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-
 .dropdown-menu {
   background-color: #ffd401;
 }
-
 .dropdown-item {
   padding-left: 10px;
   font-weight: 600;
   color: rgba(7, 65, 119, 0.85);
 }
-
 .dropdown-item:hover {
   padding-left: 10px;
   font-weight: 600;
   background-color: rgba(7, 65, 119, 0.85);
   color: #ffd401;
 }
-
 .button-support-header {
   padding: 5px 10px;
   text-transform: uppercase;
@@ -89,7 +77,6 @@
   transition: all 0s ease 0s;
   /* margin-right: 10px; */
 }
-
 .button-support-header:hover,
 .button-support-header:focus {
   background: #ffc107;
@@ -97,7 +84,6 @@
   font-weight: 700;
   box-shadow: 0 0 1px 3px #ecb307;
 }
-
 .select {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -111,7 +97,6 @@
   cursor: pointer;
   /* text-align: center; */
 }
-
 .select option {
   color: black;
   background-color: #ffd401;
@@ -121,10 +106,6 @@
   color: #ffd401;
   background-color: #0a56ad;
 }
-
-.select-wrapper {
-}
-
 @media (max-width: 767px) {
   .select {
     margin-top: 10px;

@@ -1,52 +1,3 @@
-/* .scroll-up {
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
-  z-index: 1000;
-  width: 50;
-  height: 50;
-  color: #ffd401;
-  background-color: #0a56ad;
-  cursor: pointer;
-  visibility: hidden;
-  border-radius: 50px;
-  box-shadow: inset 0 0 0 4px #ffd401;
-  opacity: 0;
-  transition: 0.2s;
-  transform: translateY(25px);
-}
-
-.scroll-up::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  font-size: 20px;
-  content: "↑";
-}
-
-.scroll-up::hover {
-  color: #ffd401;
-}
-
-.scroll-up--active {
-  visibility: visible;
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.scroll-up_svg-path {
-  box-sizing: border-box;
-  fill: none;
-  stroke: #0a56ad;
-  stroke-width: 4px;
-  transition: 0.2s;
-} */
-
 .scrollToTopBtn {
   background-color: transparent;
   border: none;
@@ -63,28 +14,22 @@
   transform: translateY(100px);
   transition: all 0.5s ease;
 }
-
 .showBtn {
   opacity: 1;
   transform: translateY(0);
 }
-
 .icon-scrollToTop {
   width: 48px;
   height: 48px;
   fill: #ffc401;
   padding: 1px;
-  /* border: 3px solid blue;
-  border-radius: 50%; */
 }
-
 .icon-scrollToTop:hover {
   fill: #255fb6;
   background-color: #ffc401;
   border: -1px solid #255fb6;
   border-radius: 50%;
 }
-
 @media (max-width: 767px) {
   .scrollToTopBtn {
     bottom: 10px;

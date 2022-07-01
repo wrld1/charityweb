@@ -12,6 +12,7 @@
 @import "./partners.css";
 @import "./documents.css";
 @import "./scroll-to-top.css";
+@import "./news-link.css";
 
 body {
   font-family: "Lato", sans-serif;
@@ -19,7 +20,6 @@ body {
   font-size: 16px;
   color: #555;
 }
-
 h1,
 h2,
 h3,
@@ -30,39 +30,22 @@ h6 {
   font-weight: 300;
   color: #333;
 }
-
 .app-content {
   scroll-behavior: smooth;
 }
-
-/* ._anim-show {
-  transform: translate(0px, 70%);
-  opacity: 0;
-  transition: all 0.8s ease 0s;
-}
-
-._anim-show._active,
-._active ._anim-show {
-  opacity: 1;
-  transform: translate(0px, 0px);
-} */
-
 .bg-primary {
   background-color: rgba(47, 119, 252, 0.815) !important;
   backdrop-filter: blur(5px);
 }
-
 .bg-gray {
   background-color: rgba(196, 196, 196, 0.411);
 }
-
 .bg-wheat {
   background-image: url(../img/161510-e4d972.svg);
   background-size: 400px 400px;
   background-position: 90% 100%;
   background-repeat: no-repeat;
 }
-
 .title {
   padding: 20px 0;
   /* color: rgba(4, 129, 179, 0.712); */
@@ -71,20 +54,17 @@ h6 {
   text-align: center;
   font-weight: bold;
 }
-
 .subtitle {
   color: #0a56ad;
   font-weight: 700;
   text-align: center;
 }
-
 span {
   background-color: #0a56ad;
   color: #ffd401;
   border-radius: 5px;
   padding: 3px 5px;
 }
-
 .button-support {
   background-color: #ffd401;
   color: #0a56ad;
@@ -108,12 +88,10 @@ span {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-
 .button-support:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
   transform: translateY(-5px);
 }
-
 @media (max-width: 767px) {
   .main p {
     font-size: 18px;
@@ -134,7 +112,6 @@ span {
     font-size: 30px;
   }
 }
-
 @media (max-width: 575px) {
   .title {
     padding: 5px 0;
