@@ -7,6 +7,11 @@
   font-size: 50px;
 }
 
+.bank-details strong {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
 .bank-details_row {
   display: flex;
   flex-wrap: nowrap;
@@ -37,7 +42,7 @@
 }
 
 .bank-details_block_usd span {
-  background-color: #18810394;
+  background-color: #1fa10494;
   color: black;
 }
 
@@ -53,7 +58,7 @@
 }
 
 .bank-details_block_eur span {
-  background-color: #0a56ad;
+  background-color: #0a56ade3;
 }
 
 .bank-details_block_text {
@@ -75,5 +80,8 @@
   .bank-details_subtitle {
     transform: rotate(-15deg) translate(-15%, -25%);
     position: absolute;
+  }
+  .bank-details span {
+    font-size: 40px;
   }
 }
