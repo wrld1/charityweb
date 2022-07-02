@@ -1,0 +1,79 @@
+.bank-details {
+  align-items: center;
+  justify-items: center;
+}
+.bank-details span {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.bank-details_row {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 20px;
+  row-gap: 10px;
+  padding: 15px;
+}
+
+.bank-details_row p {
+  font-weight: 500;
+}
+
+.bank-details_block_uah {
+  background-color: #ffc40138;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.bank-details_block_uah span {
+  background-color: #ffc4019c;
+  color: black;
+}
+
+.bank-details_block_usd {
+  background-color: #2bff0138;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.bank-details_block_usd span {
+  background-color: #18810394;
+  color: black;
+}
+
+.bank-details_subtitle {
+  transform: rotate(-15deg) translate(-20%, -25%);
+  position: absolute;
+}
+
+.bank-details_block_eur {
+  background-color: #0a56ad52;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.bank-details_block_eur span {
+  background-color: #0a56ad;
+}
+
+.bank-details_block_text {
+  position: relative;
+  margin-top: 60px;
+}
+
+.bank-details_block_text p {
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  .bank-details_row {
+    flex-wrap: wrap;
+  }
+  .bank-details_subtitle {
+    transform: rotate(-15deg) translate(-15%, -25%);
+    position: absolute;
+  }
+}

@@ -14,6 +14,7 @@
 @import "./scroll-to-top.css";
 @import "./news-link.css";
 @import "./fonts.css";
+@import "./bank-details.css";
 
 body {
   font-family: "Lato", sans-serif;
