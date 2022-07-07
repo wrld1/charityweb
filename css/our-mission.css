@@ -6,6 +6,7 @@
   display: block;
   padding: 30px;
   margin-left: auto;
+  position: relative;
   margin-right: auto;
   background-color: #fff;
   border-radius: 6px;
@@ -13,7 +14,23 @@
   transition: all 0.8s ease 0s;
   text-align: center;
   border: 2px solid #ffd401;
+  z-index: 1;
 }
+
+.mission-text::before {
+  content: "";
+  background-image: url("../img/task.png");
+  background-size: 300px 300px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  right: 0;
+  bottom: 0;
+  left: 83%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
 .mission-text p {
   color: black;
   font-weight: 500;
@@ -28,5 +45,8 @@
   .mission-text p {
     margin: 0;
     padding-bottom: 0;
+  }
+  .mission-text::before {
+    left: 65%;
   }
 }

@@ -4,25 +4,50 @@
   flex-wrap: wrap;
   align-content: center;
 }
+
+.projects-row {
+  --bs-gutter-y: 1rem;
+}
 .project-block {
   padding: 30px 15px;
   text-align: center;
+  position: relative;
   background-color: #fff;
+  /* background-image: url("../icons/ukraine-sil.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 90% 100%; */
   border-radius: 6px;
   box-shadow: 0 0 10px 5px rgb(221 221 221);
   transition: all 0.8s ease 0s;
-  min-height: 80%;
+  min-height: 100%;
+  z-index: 1;
 }
-.project-block:hover {
-  background-color: rgba(216, 212, 212, 0.63);
+
+.project-block::before {
+  content: "";
+  background-image: url("../icons/ukraine-sil.svg");
+  background-size: 400px 400px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 40%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: -1;
 }
+
 .project-block p {
   color: black;
-  font-weight: 600;
+  font-weight: 500;
 }
 @media (max-width: 991px) {
   .project-block {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .project-block::before {
+    top: -50px;
   }
 } ;
